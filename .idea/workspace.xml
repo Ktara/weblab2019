@@ -2,90 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b062614e-d1a9-4242-87de-a017f1e91580" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Inkorgaz/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Inkorgaz/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Inkorgaz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Inkorgaz/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apliinstagram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apliinstagram/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/new/img10.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new/img10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/photo/image 232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ielp.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/_base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/_main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jk_metropolia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_base.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_fonts.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_header.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_main.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/RobotoRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип1 _1к _40,79м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип10 _1к _40,79м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип2 _2к _54,29м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип3 _2к _52,15м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип4 _1к _29,33м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип5 _1к _32,94м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип6 _1к _32,94м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип7 _1к _29,02м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип8 _2к _59,90м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип9 _2к _62,30м2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/darwin_bord.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/icon/symbol.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo/Лого _Контакт-инвест.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo/Лого Концепт-групп.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/parking.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/plan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 2 _обидві секц..jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 2 _секц. 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 2 _секц. 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 3-16 _обидві секц..jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 3-16 _секц. 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 3-16 _секц. 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 7-20 _обидві секц..jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 7-20 _секція 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 7-21 _секція 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/velocity.ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../metropolia/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../our_site/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../our_site/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../our_site/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../our_site/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product6.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,31 +19,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54956424">
+    <splitter split-orientation="horizontal" split-proportion="0.51895994">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+                <state relative-caret-position="272">
+                  <caret line="509" column="55" selection-start-line="509" selection-start-column="45" selection-end-line="509" selection-end-column="55" />
                   <folding>
-                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#9;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#10;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="188" column="69" lean-forward="true" selection-start-line="188" selection-start-column="69" selection-end-line="188" selection-end-column="69" />
+                  <folding>
+                    <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -141,9 +80,38 @@
             <entry file="file://$PROJECT_DIR$/assets/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="513">
-                  <caret line="168" column="12" lean-forward="true" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+                  <caret line="2294" column="19" lean-forward="true" selection-start-line="2294" selection-start-column="19" selection-end-line="2294" selection-end-column="19" />
                   <folding>
-                    <marker date="1554543012931" expanded="true" signature="27576:27610" ph="..." />
+                    <element signature="e#3244#6484#0" />
+                    <element signature="e#8205#8301#0" />
+                    <element signature="e#8326#8420#0" />
+                    <element signature="e#8444#8540#0" />
+                    <element signature="e#8571#8665#0" />
+                    <element signature="e#8699#8795#0" />
+                    <element signature="e#8824#9007#0" />
+                    <element signature="e#9042#9136#0" />
+                    <element signature="e#9165#9350#0" />
+                    <element signature="e#9384#9480#0" />
+                    <element signature="e#9512#9667#0" />
+                    <element signature="e#9704#9861#0" />
+                    <element signature="e#9892#10047#0" />
+                    <element signature="e#10086#10243#0" />
+                    <element signature="e#10260#10416#0" />
+                    <element signature="e#10440#10496#0" />
+                    <element signature="e#10520#10576#0" />
+                    <element signature="e#10602#10698#0" />
+                    <element signature="e#10725#10819#0" />
+                    <element signature="e#10841#10899#0" />
+                    <element signature="e#10934#10992#0" />
+                    <element signature="e#11015#11109#0" />
+                    <element signature="e#11125#11212#0" />
+                    <element signature="e#31217#32127#0" />
+                    <element signature="e#32173#33471#0" />
+                    <element signature="e#33504#34889#0" />
+                    <element signature="e#34923#36688#0" />
+                    <element signature="e#36735#39105#0" />
+                    <element signature="e#38247#40748#0" />
+                    <marker date="1554549092245" expanded="true" signature="26548:26582" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -161,7 +129,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/font.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1007">
+                <state relative-caret-position="842">
                   <caret line="53" column="1" selection-start-line="48" selection-end-line="53" selection-end-column="1" />
                 </state>
               </provider>
@@ -170,8 +138,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10184">
-                  <caret line="536" column="48" selection-start-line="536" selection-start-column="48" selection-end-line="536" selection-end-column="48" />
+                <state relative-caret-position="308">
+                  <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -186,6 +154,8 @@
       <find>main</find>
       <find>inp</find>
       <find>nav_header_</find>
+      <find>pop</find>
+      <find>ani</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,8 +170,9 @@
         <option value="$PROJECT_DIR$/assets/css/cross.css" />
         <option value="$PROJECT_DIR$/assets/css/font.less" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/style.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/blog.html" />
       </list>
     </option>
   </component>
@@ -220,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,12 +240,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../primeauto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -312,17 +283,18 @@
       <workItem from="1554449604039" duration="11395000" />
       <workItem from="1554478804338" duration="16000" />
       <workItem from="1554542971800" duration="92000" />
+      <workItem from="1554543875426" duration="5441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36693000" />
+    <option name="totallyTimeSpent" value="42134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.015991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,49 +389,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/font.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
+        <state relative-caret-position="842">
           <caret line="53" column="1" selection-start-line="48" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10184">
-          <caret line="536" column="48" selection-start-line="536" selection-start-column="48" selection-end-line="536" selection-end-column="48" />
+        <state relative-caret-position="308">
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="168" column="12" lean-forward="true" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+          <caret line="2294" column="19" lean-forward="true" selection-start-line="2294" selection-start-column="19" selection-end-line="2294" selection-end-column="19" />
           <folding>
-            <marker date="1554543012931" expanded="true" signature="27576:27610" ph="..." />
+            <element signature="e#3244#6484#0" />
+            <element signature="e#8205#8301#0" />
+            <element signature="e#8326#8420#0" />
+            <element signature="e#8444#8540#0" />
+            <element signature="e#8571#8665#0" />
+            <element signature="e#8699#8795#0" />
+            <element signature="e#8824#9007#0" />
+            <element signature="e#9042#9136#0" />
+            <element signature="e#9165#9350#0" />
+            <element signature="e#9384#9480#0" />
+            <element signature="e#9512#9667#0" />
+            <element signature="e#9704#9861#0" />
+            <element signature="e#9892#10047#0" />
+            <element signature="e#10086#10243#0" />
+            <element signature="e#10260#10416#0" />
+            <element signature="e#10440#10496#0" />
+            <element signature="e#10520#10576#0" />
+            <element signature="e#10602#10698#0" />
+            <element signature="e#10725#10819#0" />
+            <element signature="e#10841#10899#0" />
+            <element signature="e#10934#10992#0" />
+            <element signature="e#11015#11109#0" />
+            <element signature="e#11125#11212#0" />
+            <element signature="e#31217#32127#0" />
+            <element signature="e#32173#33471#0" />
+            <element signature="e#33504#34889#0" />
+            <element signature="e#34923#36688#0" />
+            <element signature="e#36735#39105#0" />
+            <element signature="e#38247#40748#0" />
+            <marker date="1554549092245" expanded="true" signature="26548:26582" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="509" column="55" selection-start-line="509" selection-start-column="45" selection-end-line="509" selection-end-column="55" />
           <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#9;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#10;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="188" column="69" lean-forward="true" selection-start-line="188" selection-start-column="69" selection-end-line="188" selection-end-column="69" />
+          <folding>
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

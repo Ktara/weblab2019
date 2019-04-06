@@ -149,13 +149,10 @@ $('.popular_slider_wrapper').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	dots: true,
-	appendDots: '.white_block',
+	// appendDots: '.white_block',
 	arrows: true,
-	nextArrow: '<div class="popular_next_arrow popular_arrow_animate"></div>',
-	prevArrow: '<div class="popular_prew_arrow popular_arrow_animate"></div>',
-	// adaptiveHeight: true,
-	// infinite: true,
-	rtl: true
+	nextArrow: '<div class="popular_next_arrow"></div>',
+	prevArrow: '<div class="popular_prew_arrow"></div>'
 });
 
 
