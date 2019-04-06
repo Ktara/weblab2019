@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b062614e-d1a9-4242-87de-a017f1e91580" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Inkorgaz/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Inkorgaz/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inkorgaz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Inkorgaz/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apliinstagram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apliinstagram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ielp.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/_base.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/_main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/css/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jk_metropolia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jk_metropolia/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_base.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_fonts.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_header.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/_main.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/css/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/fonts/RobotoRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип1 _1к _40,79м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип10 _1к _40,79м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип2 _2к _54,29м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип3 _2к _52,15м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип4 _1к _29,33м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип5 _1к _32,94м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип6 _1к _32,94м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип7 _1к _29,02м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип8 _2к _59,90м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/apartment/С1 _тип9 _2к _62,30м2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/darwin_bord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/icon/symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo/Лого _Контакт-инвест.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/logo/Лого Концепт-групп.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/parking.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/photo/plan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 2 _обидві секц..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 2 _секц. 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 2 _секц. 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 3-16 _обидві секц..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 3-16 _секц. 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 3-16 _секц. 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 7-20 _обидві секц..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 7-20 _секція 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/img/sections/пов. 7-21 _секція 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/assets/js/velocity.ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metropolia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../our_site/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../our_site/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../our_site/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../our_site/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeauto/auto-product6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../primeauto/auto-product6.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.54956424">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="232">
+                  <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+                  <folding>
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/cross.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6935">
+                  <caret line="365" column="1" selection-start-line="365" selection-start-column="1" selection-end-line="365" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/css/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="513">
+                  <caret line="168" column="12" lean-forward="true" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+                  <folding>
+                    <marker date="1554543012931" expanded="true" signature="27576:27610" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/home.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="8987">
+                  <caret line="473" column="3" selection-start-line="412" selection-start-column="2" selection-end-line="473" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/font.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1007">
+                  <caret line="53" column="1" selection-start-line="48" selection-end-line="53" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="10184">
+                  <caret line="536" column="48" selection-start-line="536" selection-start-column="48" selection-end-line="536" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nav_header</find>
+      <find>main</find>
+      <find>inp</find>
+      <find>nav_header_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/css/font.css" />
+        <option value="$PROJECT_DIR$/assets/css/home.css" />
+        <option value="$PROJECT_DIR$/assets/css/cross.css" />
+        <option value="$PROJECT_DIR$/assets/css/font.less" />
+        <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.less" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="font.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="home.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="style.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="fitness" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../primeauto" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WEB\is-it\fitness\assets\img\new" />
+      <recent name="C:\WEB\is-it\fitness\assets\fonts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b062614e-d1a9-4242-87de-a017f1e91580" name="Default Changelist" comment="" />
+      <created>1554360485766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554360485766</updated>
+      <workItem from="1554360487143" duration="25190000" />
+      <workItem from="1554449604039" duration="11395000" />
+      <workItem from="1554478804338" duration="16000" />
+      <workItem from="1554542971800" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36693000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32940018" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="986" column="26" lean-forward="true" selection-start-line="986" selection-start-column="26" selection-end-line="986" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3002">
+          <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/icon/arrow-main-blog.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/icon/arrow_white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="178" column="18" selection-start-line="168" selection-start-column="8" selection-end-line="178" selection-end-column="18" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="160" column="10" selection-start-line="144" selection-start-column="4" selection-end-line="160" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/cross.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6935">
+          <caret line="365" column="1" selection-start-line="365" selection-start-column="1" selection-end-line="365" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8987">
+          <caret line="473" column="3" selection-start-line="412" selection-start-column="2" selection-end-line="473" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/font.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="1" selection-start-line="48" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10184">
+          <caret line="536" column="48" selection-start-line="536" selection-start-column="48" selection-end-line="536" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="168" column="12" lean-forward="true" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+          <folding>
+            <marker date="1554543012931" expanded="true" signature="27576:27610" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

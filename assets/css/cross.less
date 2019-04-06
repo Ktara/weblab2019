@@ -1,0 +1,312 @@
+@import "font";
+
+@color_white : #fffffe;
+.main_cross_wrapper {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-color: #191a1e;
+}
+.cross_about {
+  width: 100%;
+  height: auto;
+  padding-bottom: 120px;
+  &_header {
+    display: block;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: ProximaNova;
+    font-size: 36px;
+    color: @color_white;
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      margin-top: 80px;
+    }
+    @media screen and (max-width: 576px) {
+      text-align: left;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  &_subheader {
+    display: block;
+    width: 30%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    font-family: ProximaNova;
+    font-size: 18px;
+    line-height: 24px;
+    color: @color_white;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      width: 55%;
+    }
+    @media screen and (max-width: 576px) {
+      display: block;
+      text-align: left;
+      width: 90%;
+      margin: 0 15px 30px 15px;
+    }
+  }
+  &_border {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &_block {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #547ef4;
+    overflow: hidden;
+    @media screen and (max-width: 768px) {      
+      height: 18vh
+    }
+    @media screen and (max-width: 576px) {
+      height: 25vh;
+    }
+  }
+  &_text {
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-family: ProximaNova;
+    font-size: 18px;
+    line-height: 24px;
+    color: @color_white;
+    @media screen and (max-width: 768px) {      
+      font-size: 16px;
+      width: 75%;
+    }
+  }
+  &_image {
+    width: 100%;
+    height: 100%;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      @media screen and (max-width: 768px) {      
+        width: 100%;
+      }
+    }
+  }
+}
+.cross_steps {
+  width: 100%;
+  // height: 85vh;
+  // overflow: hidden;
+  &_image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    @media screen and (max-width: 768px) {      
+      position: relative;
+    }
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      @media screen and (max-width: 768px) {      
+        position: absolute;
+        top: 0;
+        left: -25%;
+      }
+      @media screen and (max-width: 576px) {
+        position: relative;        
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+  &_header {
+    font-family: ProximaNova;
+    font-size: 36px;
+    line-height: 36px;
+    color: @color_white;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+    @media screen and (max-width: 768px) {      
+      padding-bottom: 30px;
+    }
+    @media screen and (max-width: 576px) {
+      display: none;
+    }
+  }
+  &_header_mob {
+    display: none;
+    @media screen and (max-width: 576px) {
+      display: inline-block;
+      font-size: 30px;
+    }
+  }
+  &_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &_text {
+    width: 100%;
+    height: 35%;
+    border-radius: 5px;
+    border: 5px solid #547ef4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: ProximaNova;
+    font-size: 18px;
+    line-height: 24px;
+    color: @color_white;
+    font-weight: 400;
+    @media screen and (max-width: 768px) {
+      min-height: 20vh;
+      height: auto;
+      margin-top: 20px;
+    }
+    p {
+      width: 85%;
+      display: inline-block;
+      text-align: center;
+      @media screen and (max-width: 768px) {      
+        padding: 10px;
+      }
+    }
+  }
+}
+.cross_consist {
+  width: 100%;
+  margin-top: 120px;
+  // height: 100vh;
+  // overflow: hidden;
+  &_header {
+    font-family: ProximaNova;
+    font-size: 36px;
+    line-height: 36px;
+    color: @color_white;
+    font-weight: 700;
+    padding-bottom: 20px;
+    @media screen and (max-width: 576px) {      
+      font-size: 30px;
+      padding-bottom: 35px;
+    }
+  }
+  &_image_mob {
+    display: none;
+    @media screen and (max-width: 576px) {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      overflow: hidden;
+      img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;        
+      }
+    }
+  }
+  &_subheader {
+    font-family: ProximaNova;
+    font-size: 18px;
+    line-height: 24px;
+    color: @color_white;
+    font-weight: 400;
+    padding-bottom: 50px;
+    @media screen and (max-width: 576px) {      
+      margin-top: 50px;
+      padding-bottom: 0;
+    }
+  }
+  &_block {
+    clear: both;
+    height: 23vh;
+    border-radius: 5px;
+    border: 5px solid rgba(84, 126, 244, 0.5);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+    @media screen and (max-width: 768px) {      
+      height: auto;
+      min-height: 20vh;
+    }
+    @media screen and (max-width: 576px) {
+      min-height: 25vh;
+      margin-top: 30px;
+    }
+    p{
+      font-family: ProximaNova;
+      font-size: 18px;
+      line-height: 24px;
+      color: @color_white;
+      font-weight: 400;
+      display: inline-block;
+      width: 75%;
+      text-align: center;
+      @media screen and (max-width: 768px) {      
+        padding: 10px;
+      }
+    }
+    span {
+      position: absolute;
+      opacity: 0.2;
+      color: #fffffe;
+      font-family: ProximaNova;
+      font-size: 200px;
+      font-weight: 300;
+      line-height: 24px;
+      top: 100%;
+      left: -3%;
+      @media screen and (max-width: 768px) {      
+        top: 110%;
+      }
+    }
+  }
+  &_elem:nth-child(n+2) .cross_consist_block {
+    //margin-top: 5vh;
+    span {
+      left: auto;
+      right: -6%;
+    }
+  }
+  &_elem:nth-child(2) .cross_consist_block {
+    // margin-top: 15vh;
+    @media screen and (max-width: 576px) {      
+      margin-top: 30px;
+    }
+  }
+  &_image {
+    width: 100%;
+    // height: calc(100% + 8vh);
+    // overflow: hidden;
+    @media screen and (max-width: 768px) {      
+      position: relative;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+      // min-height: 100%;
+      @media screen and (max-width: 768px) { 
+        position: absolute; 
+        top: 0;
+        left: -50%;    
+        width: auto;
+        min-width: 100%;        
+      }
+    }
+  }
+}
