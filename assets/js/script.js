@@ -158,6 +158,33 @@ $('.popular_slider_wrapper').slick({
 
 
 
+$('.article_other_slider_wrapper').slick({
+	slidesToShow: 2,
+	slidesToScroll: 2,
+	dots: false,
+	// appendDots: '.white_block',
+	arrows: true,
+	nextArrow: '<div class="article_other_next_arrow"></div>',
+	prevArrow: '<div class="article_other_prev_arrow"></div>'
+});
+
+
+
+
+
+$('.other_program_slider_wrapper').slick({
+	slidesToShow: 2,
+	slidesToScroll: 2,
+	dots: false,
+	// appendDots: '.white_block',
+	arrows: true,
+	nextArrow: '<div class="other_program_next_arrow"></div>',
+	prevArrow: '<div class="other_program_prev_arrow"></div>'
+});
+
+
+
+
 
 
 $('.photo_slider_wrapper').slick({
