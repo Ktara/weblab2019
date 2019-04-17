@@ -209,7 +209,7 @@ $('.photo_slider_wrapper').slick({
 
 
 
-$('.nav_header_log_out').click(function(){
+$('.nav_header_log_cabinet').click(function(){
 	$('.popup_log_out').addClass('popup_log_out_active').velocity({
 		opacity: 1
 	}, 600);
