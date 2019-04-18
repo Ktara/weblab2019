@@ -210,6 +210,32 @@ $('.photo_slider_wrapper').slick({
 
 
 $('.nav_header_log_cabinet').click(function(){
+	$('.popup_sign_in').addClass('popup_sign_in_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+$('.popup_sign_in').click(function(event){
+	if(event.target === this){
+		$(this).velocity({
+			opacity: 0
+		}, 600);
+		setTimeout(function(){
+			$('.popup_sign_in').removeClass('popup_sign_in_active');
+		}, 600);
+	};
+});
+$('.close_sign_in').click(function(){
+	$('.popup_sign_in').removeClass('popup_sign_in_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+
+$('.back_to_log_out').click(function(){
+	setTimeout(function(){
+		$('.popup_sign_in').removeClass('popup_sign_in_active');
+	}, 600);
 	$('.popup_log_out').addClass('popup_log_out_active').velocity({
 		opacity: 1
 	}, 600);
@@ -225,6 +251,23 @@ $('.popup_log_out').click(function(event){
 		}, 600);
 	};
 });
+$('.close_log_out').click(function(){
+	$('.popup_log_out').removeClass('popup_log_out_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+
+
+$('.back_to_sign_in').click(function(){
+	setTimeout(function(){
+		$('.popup_log_out').removeClass('popup_log_out_active');
+	}, 600);
+	$('.popup_sign_in').addClass('popup_sign_in_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
 
 
 
@@ -248,6 +291,29 @@ $('.popup_sign_in').click(function(event){
 	};
 });
 
+
+
+$('.main_ad_btn').click(function(){
+	$('.popup_share').addClass('popup_share_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+$('.popup_share').click(function(event){
+	if(event.target === this){
+		$(this).velocity({
+			opacity: 0
+		}, 600);
+		setTimeout(function(){
+			$('.popup_share').removeClass('popup_share_active');
+		}, 600);
+	};
+});
+$('.close_share').click(function(){
+	$('.popup_share').removeClass('popup_share_active').velocity({
+		opacity: 1
+	}, 600);
+});
 
 
 // var link = $('.nav_header_menu li a');

@@ -506,23 +506,6 @@ body {
   background-size: cover;
   background-color: #000000;
 }
-@media screen and (max-width: 1440px) {
-  .about {
-    height: 50vh;
-    min-height: 375px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .about {
-    height: 40vh;
-  }
-}
-@media screen and (max-width: 576px) {
-  .about {
-    height: 170px;
-    min-height: auto;
-  }
-}
 .about_title {
   font-size: 60px;
   padding-top: 70px;
@@ -2046,8 +2029,30 @@ footer .pay img {
   width: 100%;
   height: auto;
   margin-top: 80px;
-  overflow: hidden;
   z-index: 1;
+}
+.popup_log_out_wrapper .close_log_out {
+  position: absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  top: -40px;
+  right: 0;
+  cursor: pointer;
+}
+.popup_log_out_wrapper .close_log_out img {
+  display: inline-block;
+  width: 17px;
+  margin-right: 10px;
+}
+.popup_log_out_wrapper .close_log_out_text {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F1D86E;
+  vertical-align: middle;
+  padding-bottom: 7px;
 }
 .popup_log_out_logo_block {
   position: relative;
@@ -2166,50 +2171,86 @@ footer .pay img {
     margin-top: 50px;
   }
 }
-.popup_log_out_registration_form input {
+.popup_log_out_registration_form_check {
+  display: inline-block;
+}
+.popup_log_out_registration_form_check input {
+  display: none;
+}
+.popup_log_out_registration_form_check input:checked + .popup_log_out_registration_form_square:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  background-color: #F1D86E;
+}
+.popup_log_out_registration_form_square {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+.popup_log_out_registration_form_text {
+  display: inline-block;
+  font-size: 14px;
+  color: #ffffff;
+  vertical-align: middle;
+  padding-bottom: 8px;
+}
+.popup_log_out_registration_form_text a {
+  text-decoration: underline;
+  color: #F1D86E;
+}
+.popup_log_out_registration_form_input {
   width: 100%;
   margin-bottom: 30px;
   padding-bottom: 10px;
   font-size: 16px;
-  color: #c3c2c2;
+  color: #888888;
   outline: none;
   border: none;
   background-color: inherit;
   border-bottom: 1px solid #ffffff;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
 }
 .popup_log_out_registration_form input::-moz-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+  color: #888888;
 }
 .popup_log_out_registration_form input::-webkit-input-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_log_out_registration_form input:-ms-input-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_log_out_registration_form input::-ms-input-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_log_out_registration_form input::placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_log_out_registration_form input:focus {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
+  color: #F1D86E;
   outline: none;
   padding-bottom: 10px;
-  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 1px solid #F1D86E;
 }
 .popup_log_out_registration_btn {
   display: block;
@@ -2307,25 +2348,47 @@ footer .pay img {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(45, 57, 71, 0.75);
+  background-color: #252525;
 }
 .popup_sign_in_wrapper {
   position: relative;
   width: 100%;
   height: auto;
   margin-top: 80px;
-  overflow: hidden;
   z-index: 1;
-  border-radius: 10px;
+}
+.popup_sign_in_wrapper .close_sign_in {
+  position: absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  top: -40px;
+  right: 0;
+  cursor: pointer;
+}
+.popup_sign_in_wrapper .close_sign_in img {
+  display: inline-block;
+  width: 17px;
+  margin-right: 10px;
+}
+.popup_sign_in_wrapper .close_sign_in_text {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F1D86E;
+  vertical-align: middle;
+  padding-bottom: 7px;
 }
 .popup_sign_in_logo_block {
   position: relative;
   width: 100%;
-  height: 50vh;
-  min-height: 540px;
+  height: 60vh;
+  min-height: 660px;
   z-index: 1;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 80px;
 }
 .popup_sign_in_logo_block:before {
   content: '';
@@ -2335,38 +2398,33 @@ footer .pay img {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #ec835b;
-  opacity: 0.9;
+  background-color: #F1D86E;
+  opacity: 0.74;
 }
-.popup_sign_in_logo_block_header {
+.popup_sign_in_logo_block_image {
   position: relative;
-  font-size: 48px;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 70px;
-  color: #ffffff;
-  z-index: 1;
-  cursor: default;
+  display: flex;
+  justify-content: center;
+  height: 125px;
 }
-.popup_sign_in_logo_block img {
-  position: relative;
-  display: block;
-  width: 115px;
-  height: 120px;
-  margin: 20px auto;
-  z-index: 1;
+.popup_sign_in_logo_block_image img {
+  height: 100%;
 }
 .popup_sign_in_logo_block_sub_title {
   position: relative;
   text-align: center;
-  color: #c3c2c2;
+  color: #000000;
   cursor: default;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'PFDinDisplayPro', sans-serif;
+  font-weight: 600;
 }
 .popup_sign_in_logo_block_list {
   position: relative;
-  margin-top: 60px;
-  color: #ffffff;
+  margin-top: 100px;
+  color: #000000;
+  list-style: square;
 }
 .popup_sign_in_logo_block_list li {
   position: relative;
@@ -2375,19 +2433,12 @@ footer .pay img {
   text-indent: 10px;
   cursor: default;
 }
-.popup_sign_in_logo_block_list li:before {
-  content: url('../img/icon/circle-shape-outline.png');
-  position: absolute;
-  top: 1px;
-  left: -22px;
-  margin-right: 10px;
-}
 .popup_sign_in_registration {
   position: relative;
   width: 100%;
-  height: 50vh;
-  min-height: 540px;
-  background-color: #ffffff;
+  height: 60vh;
+  min-height: 660px;
+  background-color: #1C1C1C;
   z-index: 1;
 }
 @media screen and (max-width: 576px) {
@@ -2399,9 +2450,11 @@ footer .pay img {
 }
 .popup_sign_in_registration_header {
   font-size: 30px;
-  color: #ec835b;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'PFDinDisplayPro', sans-serif;
+  font-weight: 600;
   padding-top: 45px;
-  margin-left: 30px;
 }
 @media screen and (max-width: 576px) {
   .popup_sign_in_registration_header {
@@ -2433,78 +2486,117 @@ footer .pay img {
 }
 .popup_sign_in_registration_form {
   position: relative;
-  width: 85%;
+  width: 60%;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 20%;
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 400;
 }
 @media screen and (max-width: 576px) {
   .popup_sign_in_registration_form {
     margin-top: 50px;
   }
 }
-.popup_sign_in_registration_form input {
+.popup_sign_in_registration_form_check {
+  display: inline-block;
+}
+.popup_sign_in_registration_form_check input {
+  display: none;
+}
+.popup_sign_in_registration_form_check input:checked + .popup_sign_in_registration_form_square:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  background-color: #F1D86E;
+}
+.popup_sign_in_registration_form_square {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+.popup_sign_in_registration_form_text {
+  display: inline-block;
+  font-size: 14px;
+  color: #ffffff;
+  vertical-align: middle;
+  padding-bottom: 8px;
+}
+.popup_sign_in_registration_form_input {
   width: 100%;
   margin-bottom: 30px;
   padding-bottom: 10px;
   font-size: 16px;
-  color: #c3c2c2;
+  color: #888888;
   outline: none;
   border: none;
-  border-bottom: 1px solid #dbdbdb;
-  font-family: 'PT Sans', sans-serif;
+  background-color: inherit;
+  border-bottom: 1px solid #ffffff;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
 }
 .popup_sign_in_registration_form input::-moz-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+  color: #888888;
 }
 .popup_sign_in_registration_form input::-webkit-input-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_sign_in_registration_form input:-ms-input-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_sign_in_registration_form input::-ms-input-placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_sign_in_registration_form input::placeholder {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-weight: 400;
-  color: #c3c2c2;
+  color: #888888;
 }
 .popup_sign_in_registration_form input:focus {
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 400;
+  color: #F1D86E;
   outline: none;
   padding-bottom: 10px;
-  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 1px solid #F1D86E;
 }
 .popup_sign_in_registration_btn {
-  display: inline-block;
-  width: 160px;
-  height: 40px;
-  line-height: 38px;
-  margin-top: 105px;
-  color: #ec835b;
-  border: 1px solid #ec835b;
-  border-radius: 15px;
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 43px;
+  margin-top: 20px;
+  color: #000000;
+  border: 1px solid #F1D86E;
+  background-color: #F1D86E;
   text-align: center;
   cursor: pointer;
-  float: left;
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
   transition: all 0.6s;
+  font-family: 'PFDinDisplayPro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 768px) {
   .popup_sign_in_registration_btn {
     display: block;
     float: none;
-    margin-top: 70px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -2513,30 +2605,21 @@ footer .pay img {
   }
 }
 .popup_sign_in_registration_btn:hover {
-  color: #ffffff;
-  background-color: #ec835b;
+  border: 1px solid #F9D641;
+  background-color: #F9D641;
 }
 .popup_sign_in_registration_come_in {
-  display: inline-block;
+  display: block;
+  text-align: center;
   width: auto;
-  height: 40px;
-  line-height: 40px;
-  color: #b1b1b1;
-  margin: 105px 10px 0 70px;
-}
-@media screen and (max-width: 1200px) {
-  .popup_sign_in_registration_come_in {
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .popup_sign_in_registration_come_in {
-    margin-left: 30px;
-    margin-top: 20px;
-  }
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 40px;
 }
 .popup_sign_in_registration_img {
-  display: inline-block;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
 }
 .popup_sign_in_registration_img a {
   display: inline-block;
@@ -2551,11 +2634,33 @@ footer .pay img {
   width: 30px;
   height: 30px;
 }
-.popup_sign_in_registration_text {
-  display: block;
-  margin: 30px 0 0 30px;
+.popup_sign_in_registration .back_to_log_out {
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  right: 40px;
+  bottom: 35px;
   font-size: 14px;
-  color: #c3c2c2;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+}
+.popup_sign_in_registration_text {
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  left: 40px;
+  bottom: 35px;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
   text-decoration: none;
 }
 .popup_sign_in_mob {
@@ -2768,6 +2873,124 @@ footer .pay img {
   font-size: 14px;
   color: #c3c2c2;
   text-decoration: none;
+}
+.popup_share {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  overflow: hidden;
+  opacity: 0;
+}
+.popup_share_active {
+  height: 100vh;
+}
+.popup_share:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #252525;
+}
+.popup_share_wrapper {
+  position: relative;
+  width: 100%;
+  height: 425px;
+  background-color: #1C1C1C;
+  margin-top: calc(50% - 212.5px);
+  z-index: 1;
+}
+.popup_share_wrapper .close_share {
+  position: absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  top: -40px;
+  right: 0;
+  cursor: pointer;
+}
+.popup_share_wrapper .close_share img {
+  display: inline-block;
+  width: 17px;
+  margin-right: 10px;
+}
+.popup_share_wrapper .close_share_text {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F1D86E;
+  vertical-align: middle;
+  padding-bottom: 7px;
+}
+.popup_share_text {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 100px;
+  text-align: center;
+}
+.popup_share_form {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 70px;
+}
+.popup_share_form select {
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+  color: #888888;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 10px;
+  outline: none;
+  background-color: inherit;
+  background-image: url(../img/new/arrow-down.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+.popup_share_form select option {
+  background-color: #323232;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 15px;
+}
+.popup_share_form_btn {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 43px;
+  margin-top: 60px;
+  background-color: #595959;
+  border: 1px solid #595959;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #000000;
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.popup_share_form_btn_active {
+  background-color: #F1D86E;
+  border: 1px solid #F1D86E;
 }
 /* PHOTO PAGE */
 .photo {

@@ -30,13 +30,13 @@
                     <div class="nav_header_menu_wrapper">
                         <ul class="nav nav_header_menu">
                             <li>
-                                <a href="https://ktara.github.io/weblab2019/fitness/photo.html" class="nav_main_link">Программы</a>
+                                <a href="https://ktara.github.io/weblab2019/photo.html" class="nav_main_link">Программы</a>
                             </li>
                             <li>
-                                <a href="https://ktara.github.io/weblab2019/fitness/blog.html" class="nav_main_link">Результаты</a>
+                                <a href="https://ktara.github.io/weblab2019/blog.html" class="nav_main_link">Результаты</a>
                             </li>
                             <li>
-                                <a href="https://ktara.github.io/weblab2019/fitness/blog.html" class="nav_main_link">Блог</a>
+                                <a href="https://ktara.github.io/weblab2019/blog.html" class="nav_main_link">Блог</a>
                             </li>
                         </ul>
                     </div>
@@ -554,8 +554,15 @@
                                         Регистрация
                                     </h4>
                                     <form action="" class="popup_log_out_registration_form">
-                                        <input type="email" placeholder="Email">
-                                        <input type="password" placeholder="Пароль">
+                                        <input class="popup_log_out_registration_form_input" type="email" placeholder="Email">
+                                        <input class="popup_log_out_registration_form_input" type="password" placeholder="Пароль">
+                                        <label class="popup_log_out_registration_form_check">
+                                            <input type="checkbox">
+                                            <div class="popup_log_out_registration_form_square"></div>
+                                            <div class="popup_log_out_registration_form_text">
+                                                Согласен с <a href="https://ktara.github.io/weblab2019/oferta.html">условиями</a>
+                                            </div>
+                                        </label>
                                         <button type="submit" class="popup_log_out_registration_btn">ЗАРЕГИСТРИРОВАТЬСЯ</button>
                                     </form>
                                     <div class="popup_log_out_registration_come_in">
@@ -575,6 +582,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="close_log_out">
+                            <img src="assets/img/new/close-yellow.png" alt="">
+                            <div class="close_log_out_text">
+                                ЗАКРЫТЬ
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -590,11 +603,10 @@
                         <div class="row no-gutters">
                             <div class="col-lg-5 col-md-5 d-none d-sm-block">
                                 <div class="popup_sign_in_logo_block"
-                                     style="background-image: url(assets/img/photo/sneakers.jpg);">
-                                    <div class="popup_sign_in_logo_block_header">
-                                        Fitness
+                                     style="background-image: url(assets/img/new/img16.png);">
+                                    <div class="popup_sign_in_logo_block_image">
+                                        <img src="assets/img/logo-f.png" alt="">
                                     </div>
-                                    <img src="assets/img/icon/hand1.png" alt="">
                                     <h6 class="popup_sign_in_logo_block_sub_title">
                                         Начни меняться прямо сейчас!
                                     </h6>
@@ -623,26 +635,39 @@
                                         Регистрация
                                     </h4>
                                     <form action="" class="popup_sign_in_registration_form">
-                                        <input type="email" placeholder="Почта">
-                                        <input type="password" placeholder="Пароль">
-                                        <div class="popup_sign_in_registration_btn">Вход</div>
+                                        <input class="popup_sign_in_registration_form_input" type="email" placeholder="Email">
+                                        <input class="popup_sign_in_registration_form_input" type="password" placeholder="Пароль">
+                                        <label class="popup_sign_in_registration_form_check">
+                                            <input type="checkbox">
+                                            <div class="popup_sign_in_registration_form_square"></div>
+                                            <div class="popup_sign_in_registration_form_text">
+                                                Запомнить меня
+                                            </div>
+                                        </label>
+                                        <button type="submit" class="popup_sign_in_registration_btn">ВОЙТИ</button>
                                     </form>
                                     <div class="popup_sign_in_registration_come_in">
-                                        Или войдите
+                                        Зарегистрироваться через соц.сети:
                                     </div>
                                     <div class="popup_sign_in_registration_img">
                                         <a href="">
-                                            <img src="assets/img/icon/003-facebook.png" alt="">
+                                            <img src="assets/img/new/facebook-blue.png" alt="">
                                         </a>
                                         <a href="">
-                                            <img src="assets/img/icon/google-plus.png" alt="">
+                                            <img src="assets/img/new/google.png" alt="">
                                         </a>
-                                        <a href="">
-                                            <img src="assets/img/icon/001-twitter.png" alt="">
-                                        </a>
+                                    </div>
+                                    <div class="back_to_log_out">
+                                        РЕГИСТРАЦИЯ
                                     </div>
                                     <a href="" class="popup_sign_in_registration_text">Забыли пароль?</a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="close_sign_in">
+                            <img src="assets/img/new/close-yellow.png" alt="">
+                            <div class="close_sign_in_text">
+                                ЗАКРЫТЬ
                             </div>
                         </div>
                     </div>
@@ -720,6 +745,40 @@
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="popup_share">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-0">
+                    <div class="popup_share_wrapper popup_sign_in_animate">
+                        <div class="popup_share_text">
+                            Пожалуйста, выберите программу, в которой вы заинтересованы и мы предоставим вам возможность пройти бесплатную тренировку.
+                        </div>
+                        <form class="popup_share_form">
+                            <select size="1" name="number" class="popup_share_form_order">
+                                <option value="1" selected>Выберите программу</option>
+                                <option>Домашние тренировки</option>
+                                <option>Стретчинг</option>
+                                <option>Функциональные тренировки</option>
+                                <option>Тренажерный зал</option>
+                            </select>
+                            <button class="popup_share_form_btn">
+                                ПОЛУЧИТЬ БЕСПЛАТНУЮ ТРЕНИРОВКУ
+                            </button>
+                        </form>
+                        <div class="close_share">
+                            <img src="assets/img/new/close-yellow.png" alt="">
+                            <div class="close_share_text">
+                                ЗАКРЫТЬ
                             </div>
                         </div>
                     </div>
