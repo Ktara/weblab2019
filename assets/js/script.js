@@ -316,6 +316,36 @@ $('.close_share').click(function(){
 });
 
 
+$('.stretching_main_share_btn').click(function(){
+	$('.popup_share').addClass('popup_share_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+
+$('.home_block_share_btn').click(function(){
+	$('.popup_share').addClass('popup_share_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+
+$('.crossfyt_main_share_btn').click(function(){
+	$('.popup_share').addClass('popup_share_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+
+$('.gym_main_share_btn').click(function(){
+	$('.popup_share').addClass('popup_share_active').velocity({
+		opacity: 1
+	}, 600);
+});
+
+
+
+
 // var link = $('.nav_header_menu li a');
 // function rotateText(element) {
 // 	var $target = $(element);
