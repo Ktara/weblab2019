@@ -214,6 +214,13 @@ $('.nav_header_log_cabinet').click(function(){
 		opacity: 1
 	}, 600);
 });
+$('.popup_nav_menu_log_cabinet').click(function(){
+	$('.popup_sign_in').addClass('popup_sign_in_active').velocity({
+		opacity: 1
+	}, 600);
+	$('.popup_nav_menu').toggleClass('popup_nav_menu_active');
+	$('.nav_header_burger').toggleClass('nav_header_burger_close');
+});
 
 $('.popup_sign_in').click(function(event){
 	if(event.target === this){
@@ -369,28 +376,6 @@ $('.gym_main_share_btn').click(function(){
 
 
 
-$('.logout_img_block').click(function(){
-	$('.popup_sign_in_mob').addClass('popup_sign_in_mob_active').velocity({
-		opacity: 1
-	}, 600);
-	$('body').css('overflow', 'hidden');
-	$('.popup_header_first').addClass('popup_header_active');
-	$('.popup_sign_in_mob_second').fadeOut(400);
-	$('.popup_sign_in_mob_first').fadeIn(400);
-	$('.popup_header_second').click(function(){
-		$('.popup_sign_in_mob_second').fadeIn(400);
-		$('.popup_sign_in_mob_first').fadeOut(400);
-		$('.popup_header_first').removeClass('popup_header_active');
-		$('.popup_header_second').addClass('popup_header_active');
-	});
-	$('.popup_header_first').click(function(){
-		$('.popup_sign_in_mob_second').fadeOut(400);
-		$('.popup_sign_in_mob_first').fadeIn(400);
-		$('.popup_header_first').addClass('popup_header_active');
-		$('.popup_header_second').removeClass('popup_header_active');
-	});
-
-});
 
 $('.popup_sign_in_mob').click(function(event){
 	if(event.target === this){
@@ -408,125 +393,29 @@ $('.popup_sign_in_mob').click(function(event){
 
 
 $('.play_block').click(function(){
-	$('.crossfyt_trainer_popup_video').addClass('crossfyt_trainer_popup_video_active').velocity({
+	$('.main_video_popup_video').addClass('main_video_popup_video_active').velocity({
 		opacity: 1
 	}, 600);
 });
 
-$('.crossfyt_trainer_popup_video').click(function(event){
+$('.main_video_popup_video').click(function(event){
 	if(event.target === this){
 		$(this).velocity({
 			opacity: 0
 		}, 600);
 		setTimeout(function(){
-			$('.crossfyt_trainer_popup_video').removeClass('crossfyt_trainer_popup_video_active');
+			$('.main_video_popup_video').removeClass('main_video_popup_video_active');
 		}, 600);
 	};
 });
-
-
-
-
-$('.play_block').click(function(){
-	$('.article_advice_popup_video').addClass('article_advice_popup_video_active').velocity({
+$('.close_main_video').click(function(){
+	$('.main_video_popup_video').removeClass('main_video_popup_video_active').velocity({
 		opacity: 1
 	}, 600);
 });
 
-$('.article_advice_popup_video').click(function(event){
-	if(event.target === this){
-		$(this).velocity({
-			opacity: 0
-		}, 600);
-		setTimeout(function(){
-			$('.article_advice_popup_video').removeClass('article_advice_popup_video_active');
-		}, 600);
-	};
-});
 
 
-
-
-
-$('.play_block').click(function(){
-	$('.gym_block_popup_video').addClass('gym_block_popup_video_active').velocity({
-		opacity: 1
-	}, 600);
-});
-
-$('.gym_block_popup_video').click(function(event){
-	if(event.target === this){
-		$(this).velocity({
-			opacity: 0
-		}, 600);
-		setTimeout(function(){
-			$('.gym_block_popup_video').removeClass('gym_block_popup_video_active');
-		}, 600);
-	};
-});
-
-
-
-
-$('.play_block').click(function(){
-	$('.home_video_popup_video').addClass('home_video_popup_video_active').velocity({
-		opacity: 1
-	}, 600);
-});
-
-$('.home_video_popup_video').click(function(event){
-	if(event.target === this){
-		$(this).velocity({
-			opacity: 0
-		}, 600);
-		setTimeout(function(){
-			$('.home_video_popup_video').removeClass('home_video_popup_video_active');
-		}, 600);
-	};
-});
-
-
-
-
-
-$('.play_block').click(function(){
-	$('.stretching_program_popup_video').addClass('stretching_program_popup_video_active').velocity({
-		opacity: 1
-	}, 600);
-});
-
-$('.stretching_program_popup_video').click(function(event){
-	if(event.target === this){
-		$(this).velocity({
-			opacity: 0
-		}, 600);
-		setTimeout(function(){
-			$('.stretching_program_popup_video').removeClass('stretching_program_popup_video_active');
-		}, 600);
-	};
-});
-
-
-
-
-
-
-$('.play_block').click(function(){
-	$('.cross2_video_popup_video').addClass('cross2_video_popup_video_active').velocity({
-		opacity: 1
-	}, 600);
-});
-
-$('.cross2_video_popup_video').click(function(event){
-	if(event.target === this){
-		$(this).velocity({
-			opacity: 0
-		}, 600);
-		setTimeout(function(){
-			$('.cross2_video_popup_video').removeClass('cross2_video_popup_video_active');
-		}, 600);
-	};
-});
 
 
 
@@ -643,8 +532,15 @@ $('.main_slider_wrapper').slick({
 	arrows: true,
 	nextArrow: '<div class="main_screen_next_arrow"></div>',
 	prevArrow: '<div class="main_screen_prev_arrow"></div>',
-	// adaptiveHeight: true,
-	infinite: true
+	infinite: true,
+	responsive: [
+		{
+			breakpoint: 576,
+			settings: {
+				arrows: false
+			}
+		}
+	]
 });
 
 
@@ -657,3 +553,11 @@ window.onscroll = function() {
 		$('.nav_header').removeClass('dark_bg');
 	};
 };
+
+
+
+
+$('.nav_header_burger').click(function(){
+	$('.popup_nav_menu').toggleClass('popup_nav_menu_active');
+	$('.nav_header_burger').toggleClass('nav_header_burger_close');
+});
