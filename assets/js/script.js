@@ -8,14 +8,25 @@ $(document).ready(function () {
 		}, 1200);
 	});
 
-	// $(".nav_header_menu .nav_main_link").click(function (event) {
-	//     event.preventDefault();
-	//     var id = $(this).attr('href')
-	//         , top = $(id).offset().top - 150;
-	//     $('body,html').animate({
-	//         scrollTop: top
-	//     }, 1200);
-	// });
+	$(".nav_header_menu .nav_main_link").click(function (event) {
+	    event.preventDefault();
+	    var id = $(this).attr('href')
+	        , top = $(id).offset().top - 100;
+	    $('body,html').animate({
+	        scrollTop: top
+	    }, 1200);
+	});
+
+	$(".popup_nav_menu_list .nav_main_link").click(function (event) {
+		event.preventDefault();
+		$('.popup_nav_menu').toggleClass('popup_nav_menu_active');
+		$('.nav_header_burger').toggleClass('nav_header_burger_close');
+		var id = $(this).attr('href')
+			, top = $(id).offset().top - 100;
+		$('body,html').animate({
+			scrollTop: top
+		}, 1200);
+	});
 
 	$(".main_btn").click(function (event) {
 		event.preventDefault();
@@ -40,22 +51,6 @@ $(document).ready(function () {
 	});
 
 
-	// $(".program_btn").click(function (event) {
-	//
-	//     var newHeight = $('.program_main_viewer').css('height');
-	//     $('.program_main_wrapper').animate({
-	//     	height : newHeight
-	//     }, 1000);
-	//     // $('.program_btn').animate({
-	//     // 	opacity: 0
-	//     // }, 500);
-	//     // setTimeout(function(){
-	//     	$('.program_btn').css({
-	//     		visibility: 'hidden'
-	//     	})
-	//     // }, 500);
-	//     // $('.program_main_wrapper').addClass('program_show_wrapper');
-	// });
 
 	$(".link_menu .main_link").click(function (event) {
 		event.preventDefault();
@@ -67,28 +62,6 @@ $(document).ready(function () {
 	});
 
 
-
-	$(".crossfyt_price_mob_btn").click(function (event) {
-
-		var newHeight = $('.cross_price_viewer').css('height');
-		$('.cross_price_wrapper').animate({
-			height : newHeight
-		}, 1000);
-		// $('.program_btn').animate({
-		// 	opacity: 0
-		// }, 500);
-		// setTimeout(function(){
-		$('.crossfyt_price_mob_btn').css({
-			visibility: 'hidden'
-		})
-		// }, 500);
-		// $('.program_main_wrapper').addClass('program_show_wrapper');
-	});
-
-
-	//    $('.animate_nav_header').animate({
-	// 	top: 0
-	// }, 800);
 });
 
 
@@ -152,7 +125,15 @@ $('.popular_slider_wrapper').slick({
 	// appendDots: '.white_block',
 	arrows: true,
 	nextArrow: '<div class="popular_next_arrow"></div>',
-	prevArrow: '<div class="popular_prew_arrow"></div>'
+	prevArrow: '<div class="popular_prew_arrow"></div>',
+	responsive: [
+		{
+			breakpoint: 750,
+			settings: {
+				arrows: false
+			}
+		}
+	]
 });
 
 
@@ -179,7 +160,16 @@ $('.other_program_slider_wrapper').slick({
 	// appendDots: '.white_block',
 	arrows: true,
 	nextArrow: '<div class="other_program_next_arrow"></div>',
-	prevArrow: '<div class="other_program_prev_arrow"></div>'
+	prevArrow: '<div class="other_program_prev_arrow"></div>',
+	[
+		{
+			breakpoint: 750,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+		]
 });
 
 
@@ -535,7 +525,7 @@ $('.main_slider_wrapper').slick({
 	infinite: true,
 	responsive: [
 		{
-			breakpoint: 576,
+			breakpoint: 750,
 			settings: {
 				arrows: false
 			}

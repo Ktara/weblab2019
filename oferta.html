@@ -17,33 +17,44 @@
 
 		<header class="nav_header nav_anime nav_dark_bg">
 			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-2 col-md-2 col-6">
+				<div class="row">
+					<div class="col-lg-2 col-6">
 						<div class="nav_header_logo">
 							<a href="https://ktara.github.io/weblab2019/index.html">
 								<img src="assets/img/logo-f.png" alt="">
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 offset-lg-2 col-md-2 col-3">
+					<div class="col-lg-4 offset-lg-2 d-none d-lg-block">
 						<div class="nav_header_menu_wrapper">
 							<ul class="nav nav_header_menu">
 								<li>
-									<a href="https://ktara.github.io/weblab2019/index.html#program" class="nav_main_link">Программы</a>
+									<a href="https://ktara.github.io/weblab2019/index.html#program">
+										Программы
+									</a>
 								</li>
 								<li>
-									<a href="https://ktara.github.io/weblab2019/index.html#hit_foto" class="nav_main_link">Результаты</a>
+									<a href="https://ktara.github.io/weblab2019/index.html#hit_foto">
+										Результаты
+									</a>
 								</li>
 								<li>
-									<a href="https://ktara.github.io/weblab2019/index.html#blog" class="nav_main_link">Блог</a>
+									<a href="https://ktara.github.io/weblab2019/blog.html">
+										Блог
+									</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-3 offset-lg-1">
+					<div class="col-lg-3 offset-lg-1 d-none d-lg-block">
 						<a href="" class="nav_header_log_cabinet">
 							Личный кабинет
 						</a>
+					</div>
+					<div class="col-md-2 offset-md-4 col-3 offset-3 d-lg-none ">
+						<div class="nav_header_burger">
+
+						</div>
 					</div>
 				</div>
 			</div>
@@ -435,6 +446,84 @@
 
 
 
+		<section class="popup_log_out">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-lg-10 offset-lg-1 col-12 offset-0">
+						<div class="popup_log_out_wrapper">
+							<div class="row no-gutters">
+								<div class="col-lg-5 col-md-5 d-none d-lg-block d-md-block">
+									<div class="popup_log_out_logo_block"
+										 style="background-image: url(assets/img/new/img16.png);">
+										<div class="popup_log_out_logo_block_image">
+											<img src="assets/img/logo-f.png" alt="">
+										</div>
+										<h6 class="popup_log_out_logo_block_sub_title">
+											Начни меняться прямо сейчас!
+										</h6>
+										<ul class="popup_log_out_logo_block_list">
+											<li>
+												Простой календарь ваших тренировок
+											</li>
+											<li>
+												Сделайте свое персональное меню
+											</li>
+											<li>
+												Получи свое идеальное тело
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col_lg-7 col-md-7 col-12">
+									<div class="popup_log_out_registration">
+										<h4 class="popup_log_out_registration_header">
+											Регистрация
+										</h4>
+										<form action="" class="popup_log_out_registration_form">
+											<input class="popup_log_out_registration_form_input" type="name" placeholder="Имя">
+											<input class="popup_log_out_registration_form_input" type="second-name" placeholder="Фамилия">
+											<input class="popup_log_out_registration_form_input" type="email" placeholder="Почта">
+											<input class="popup_log_out_registration_form_input" type="nick" placeholder="Логин">
+											<input class="popup_log_out_registration_form_input" type="password" placeholder="Пароль">
+											<label class="popup_log_out_registration_form_check">
+												<input type="checkbox">
+												<div class="popup_log_out_registration_form_square"></div>
+												<div class="popup_log_out_registration_form_text">
+													Согласен с <a href="https://ktara.github.io/weblab2019/oferta.html">условиями</a>
+												</div>
+											</label>
+											<button type="submit" class="popup_log_out_registration_btn">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+										</form>
+										<div class="popup_log_out_registration_come_in">
+											Зарегистрироваться через соц.сети:
+										</div>
+										<div class="popup_log_out_registration_img">
+											<a href="">
+												<img src="assets/img/new/facebook-blue.png" alt="">
+											</a>
+											<a href="">
+												<img src="assets/img/new/google.png" alt="">
+											</a>
+										</div>
+										<div class="back_to_sign_in">
+											ВЕРНУТЬСЯ КО ВХОДУ
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="close_log_out">
+								<img src="assets/img/new/close-yellow.png" alt="">
+								<div class="close_log_out_text">
+									ЗАКРЫТЬ
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
 		<section class="popup_sign_in">
 			<div class="container">
 				<div class="row no-gutters">
@@ -546,7 +635,7 @@
 
 
 		<section class="popup_nav_menu">
-			<ul>
+			<ul class="popup_nav_menu_list">
 				<li>
 					<a href="#program" class="nav_main_link">Программы</a>
 				</li>
@@ -598,13 +687,13 @@
 						<div class="link_menu_wrapper">
 							<ul class="link_menu">
 								<li>
-									<a href="#program" class="main_link">Программы</a>
+									<a href="https://ktara.github.io/weblab2019/index.html#program" class="main_link">Программы</a>
 								</li>
 								<li>
-									<a href="#hit_foto" class="main_link">Результаты</a>
+									<a href="https://ktara.github.io/weblab2019/index.html#hit_foto" class="main_link">Результаты</a>
 								</li>
 								<li>
-									<a href="#blog" class="main_link">Блог</a>
+									<a href="https://ktara.github.io/weblab2019/blog.html" class="main_link">Блог</a>
 								</li>
 								<li>
 									<a href="https://ktara.github.io/weblab2019/oferta.html">Оферта</a>

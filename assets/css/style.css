@@ -284,6 +284,7 @@ body {
   font-family: 'ProximaNova', sans-serif;
   font-weight: 500;
   cursor: pointer;
+  margin-top: 20px;
 }
 .nav_header_log_cabinet:hover {
   color: #000000;
@@ -1790,7 +1791,7 @@ footer .pay img {
 }
 @media screen and (max-width: 768px) {
   .oferta_text_title:after {
-    content: url(../img/icon/Adown.png);
+    content: url(../img/new/arrow-down.png);
     display: inline-block;
     position: absolute;
     bottom: 12px;
@@ -1832,9 +1833,21 @@ footer .pay img {
   position: relative;
   display: inline-block;
   width: 100%;
-  min-height: 405px;
   height: 40vh;
+  min-height: 405px;
   overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .popular_slider_wrapper {
+    height: 25vh;
+    min-height: 330px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .popular_slider_wrapper {
+    height: 15vh;
+    min-height: 205px;
+  }
 }
 .popular_slide {
   position: relative;
@@ -1842,6 +1855,18 @@ footer .pay img {
   width: 100%;
   min-height: 405px;
   height: 40vh;
+}
+@media screen and (max-width: 768px) {
+  .popular_slide {
+    height: 25vh;
+    min-height: 330px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .popular_slide {
+    height: 15vh;
+    min-height: 205px;
+  }
 }
 .popular_slide:after {
   content: '';
@@ -1863,6 +1888,11 @@ footer .pay img {
   min-width: 100%;
   min-height: 100%;
 }
+@media screen and (max-width: 768px) {
+  .popular_slide_img_block img {
+    max-height: 120%;
+  }
+}
 .popular_slide_text_block {
   position: absolute;
   display: block;
@@ -1871,6 +1901,11 @@ footer .pay img {
   top: 145px;
   left: 0;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .popular_slide_text_block {
+    top: 35%;
+  }
 }
 .popular_slide_header {
   position: relative;
@@ -1881,6 +1916,19 @@ footer .pay img {
   font-weight: 600;
   color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+  .popular_slide_header {
+    font-size: 40px;
+    margin-top: 0;
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .popular_slide_header {
+    font-size: 20px;
+  }
+}
 .popular_slide_sub_header {
   position: relative;
   z-index: 20;
@@ -1888,6 +1936,12 @@ footer .pay img {
   font-size: 16px;
   color: #ffffff;
   opacity: 0.75;
+}
+@media screen and (max-width: 750px) {
+  .popular_slide_sub_header {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
 .popular .popular_next_arrow {
   cursor: pointer;
@@ -1942,6 +1996,11 @@ footer .pay img {
   flex-direction: row;
   justify-content: center;
 }
+@media screen and (max-width: 750px) {
+  .popular .slick-dots {
+    bottom: 20px;
+  }
+}
 .popular .slick-dots .slick-active button {
   color: #F1D86E;
   background-color: #F1D86E;
@@ -1970,6 +2029,7 @@ footer .pay img {
   position: relative;
   width: 100%;
   margin-top: 50px;
+  padding-bottom: 70px;
 }
 .blog_page_sorting_wrapper {
   position: relative;
@@ -1981,7 +2041,7 @@ footer .pay img {
   width: 100%;
   margin-bottom: 5px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .blog_page_sorting {
     display: none;
   }
@@ -2014,39 +2074,50 @@ footer .pay img {
 .blog_page_sorting_mob {
   display: none;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .blog_page_sorting_mob {
+    position: relative;
     display: inline-block;
-    width: 150px;
+    width: 60%;
+    margin-top: 25px;
     border: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'ProximaNova', sans-serif;
     font-weight: 400;
-    background-color: #ffffff;
+    background-color: inherit;
     outline: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-image: url(../img/new/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: right;
   }
   .blog_page_sorting_mob option {
-    font-size: 16px;
+    display: inline-block;
+    font-size: 14px;
     font-family: 'ProximaNova', sans-serif;
     font-weight: 400;
     line-height: 24px;
+    background-color: #383838;
+    text-transform: uppercase;
   }
 }
 .blog_page_sorting_all {
   display: none;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .blog_page_sorting_all {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'ProximaNova', sans-serif;
     font-weight: 400;
+    color: #ffffff;
     margin-right: 20px;
   }
   .blog_page_sorting_all:after {
@@ -2057,7 +2128,7 @@ footer .pay img {
     height: 2px;
     bottom: -10px;
     left: 0;
-    background-color: #ec835b;
+    background-color: #F1D86E;
     z-index: 10;
   }
 }
@@ -2068,24 +2139,21 @@ footer .pay img {
 }
 .blog_page_img_block {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 25vh;
   min-height: 255px;
   overflow: hidden;
 }
-@media screen and (max-width: 1440px) {
-  .blog_page_img_block {
-    height: 30vh;
-    min-height: 230px;
-  }
-}
 @media screen and (max-width: 768px) {
   .blog_page_img_block {
-    height: 25vh;
+    height: 15vh;
+    min-height: 190px;
   }
 }
 .blog_page_img_block img {
-  min-width: 100%;
   height: 100%;
 }
 .blog_page_text_block {
@@ -2121,6 +2189,7 @@ footer .pay img {
   position: relative;
   width: 100%;
   padding-top: 95px;
+  overflow: hidden;
 }
 .article_image {
   position: relative;
@@ -2156,10 +2225,21 @@ footer .pay img {
   min-height: 555px;
   z-index: 20;
 }
+@media screen and (max-width: 768px) {
+  .article_image_wrapper {
+    height: 30vh;
+    min-height: 335px;
+  }
+}
 .article_image_wrapper_back {
   display: block;
   padding-top: 55px;
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .article_image_wrapper_back {
+    padding-top: 35px;
+  }
 }
 .article_image_wrapper_back_img {
   display: inline-block;
@@ -2186,11 +2266,21 @@ footer .pay img {
   left: 0;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .article_image_wrapper_text_block {
+    top: 120px;
+  }
+}
 .article_image_wrapper_header {
   font-size: 50px;
   color: #ffffff;
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .article_image_wrapper_header {
+    font-size: 40px;
+  }
 }
 .article_image_wrapper_sub_header {
   font-size: 16px;
@@ -2437,7 +2527,7 @@ footer .pay img {
   width: 65px;
   height: 85px;
   top: calc(50% - 42.5px);
-  right: -120px;
+  right: -5%;
   z-index: 10;
   background-color: #000000;
 }
@@ -2457,7 +2547,7 @@ footer .pay img {
   width: 65px;
   height: 85px;
   top: calc(50% - 42.5px);
-  left: -120px;
+  left: -5%;
   z-index: 10;
   background-color: #000000;
 }
@@ -4892,6 +4982,14 @@ footer .pay img {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  overflow: hidden;
+}
+@media screen and (max-width: 750px) {
+  .program_first {
+    height: auto;
+    min-height: auto;
+    padding-bottom: 55px;
+  }
 }
 .program_first_header {
   font-size: 60px;
@@ -4908,6 +5006,11 @@ footer .pay img {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.28);
   padding: 25px 65px 55px 65px;
+}
+@media screen and (max-width: 750px) {
+  .program_first_table {
+    padding: 0 25px 30px 25px;
+  }
 }
 .program_first_table_block {
   margin-top: 30px;
@@ -4931,6 +5034,11 @@ footer .pay img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .program_first_price_block {
+    margin-top: 50px;
+  }
 }
 .program_first_price_block_text {
   font-size: 40px;
@@ -4972,6 +5080,11 @@ footer .pay img {
   cursor: pointer;
   margin-top: 50px;
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .program_first_price_block_btn {
+    width: 100%;
+  }
 }
 .program_first_price_block_btn:hover {
   background-color: #F9D641;
@@ -5141,9 +5254,15 @@ footer .pay img {
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
   background-position: center;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .home_block {
+    background-color: #000000;
+  }
 }
 .home_block_header {
   font-size: 60px;
@@ -5153,6 +5272,16 @@ footer .pay img {
   color: #ffffff;
   padding-top: 30%;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .home_block_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home_block_header {
+    font-size: 30px;
+  }
 }
 .home_block_header u {
   text-decoration: underline;
@@ -5164,6 +5293,11 @@ footer .pay img {
   flex-direction: row;
   justify-content: center;
   margin-top: 90px;
+}
+@media screen and (max-width: 750px) {
+  .home_block_btn_wrapper {
+    flex-direction: column;
+  }
 }
 .home_block_buy_btn {
   display: inline-block;
@@ -5185,6 +5319,12 @@ footer .pay img {
   z-index: 15;
   cursor: pointer;
   margin-right: 40px;
+}
+@media screen and (max-width: 750px) {
+  .home_block_buy_btn {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 .home_block_buy_btn:hover {
   background-color: #F9D641;
@@ -5210,33 +5350,27 @@ footer .pay img {
   font-weight: 500;
   cursor: pointer;
 }
+@media screen and (max-width: 750px) {
+  .home_block_share_btn {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
+}
 .home_block_share_btn:hover {
   color: #000000;
   background: #F9D641;
   border: 1px solid #F9D641;
 }
+.home_info_wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 .home_info {
   display: block;
   width: 100%;
   height: auto;
-}
-@media screen and (max-width: 576px) {
-  .home_info {
-    margin-top: 50px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .home_info:nth-child(2) .home_info_text {
-    width: 43vw;
-    margin-left: 45px;
-    margin-right: 0;
-  }
-}
-@media screen and (max-width: 576px) {
-  .home_info:nth-child(2) .home_info_text {
-    width: 100%;
-    margin-left: 15px;
-  }
 }
 .home_info_image {
   width: 100%;
@@ -5281,6 +5415,16 @@ footer .pay img {
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+  .home_info_content_how {
+    font-size: 150px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home_info_content_how {
+    font-size: 100px;
+  }
+}
 .home_info_content_where {
   position: absolute;
   display: block;
@@ -5293,6 +5437,11 @@ footer .pay img {
   font-size: 200px;
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .home_info_content_where {
+    font-size: 150px;
+  }
 }
 .home_info_text {
   font-family: 'ProximaNova', sans-serif;
@@ -5309,10 +5458,10 @@ footer .pay img {
     margin-top: 70px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .home_info_text {
     width: 100%;
-    margin: 90px 15px 0 15px;
+    margin: 60px 15px;
   }
 }
 .home_info_text h5 {
@@ -5374,11 +5523,18 @@ footer .pay img {
   width: 100%;
   background-color: #191919;
   padding: 70px 0;
+  overflow: hidden;
 }
 .home_trainer_image {
   width: 100%;
   height: 525px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 768px) {
+  .home_trainer_image {
+    height: 405px;
+    overflow: hidden;
+  }
 }
 .home_trainer_image img {
   height: 100%;
@@ -5421,8 +5577,19 @@ footer .pay img {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 750px) {
+  .home_trainer_content {
+    align-items: center;
+    margin-top: 40px;
+  }
+}
 .home_trainer_text {
   margin-top: 30px;
+}
+@media screen and (max-width: 750px) {
+  .home_trainer_text {
+    text-align: center;
+  }
 }
 .home_trainer_text p {
   font-size: 16px;
@@ -5447,7 +5614,7 @@ footer .pay img {
   width: 65px;
   height: 85px;
   top: calc(50% - 42.5px);
-  right: -120px;
+  right: -5%;
   z-index: 10;
   background-color: #000000;
 }
@@ -5467,7 +5634,7 @@ footer .pay img {
   width: 65px;
   height: 85px;
   top: calc(50% - 42.5px);
-  left: -120px;
+  left: -5%;
   z-index: 10;
   background-color: #000000;
 }
