@@ -161,7 +161,7 @@ $('.other_program_slider_wrapper').slick({
 	arrows: true,
 	nextArrow: '<div class="other_program_next_arrow"></div>',
 	prevArrow: '<div class="other_program_prev_arrow"></div>',
-	[
+	responsive: [
 		{
 			breakpoint: 750,
 			settings: {
@@ -169,7 +169,7 @@ $('.other_program_slider_wrapper').slick({
 				slidesToScroll: 1
 			}
 		}
-		]
+	]
 });
 
 

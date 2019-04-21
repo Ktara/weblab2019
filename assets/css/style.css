@@ -3627,9 +3627,9 @@ footer .pay img {
   background-size: cover;
   background-position: 0 100%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .stretching_main {
-    background-position: 40% 100%;
+    background-position: center;
   }
 }
 .stretching_main:after {
@@ -3654,6 +3654,16 @@ footer .pay img {
   text-align: center;
   z-index: 10;
 }
+@media screen and (max-width: 768px) {
+  .stretching_main_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stretching_main_header {
+    font-size: 30px;
+  }
+}
 .stretching_main_header u {
   display: block;
   text-decoration: underline;
@@ -3666,6 +3676,11 @@ footer .pay img {
   justify-content: center;
   margin-top: 90px;
   z-index: 10;
+}
+@media screen and (max-width: 750px) {
+  .stretching_main_btn_wrapper {
+    flex-direction: column;
+  }
 }
 .stretching_main_buy_btn {
   display: inline-block;
@@ -3687,6 +3702,12 @@ footer .pay img {
   z-index: 15;
   cursor: pointer;
   margin-right: 40px;
+}
+@media screen and (max-width: 750px) {
+  .stretching_main_buy_btn {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 .stretching_main_buy_btn:hover {
   background-color: #F9D641;
@@ -3711,6 +3732,13 @@ footer .pay img {
   font-family: 'ProximaNova', sans-serif;
   font-weight: 500;
   cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  .stretching_main_share_btn {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
 }
 .stretching_main_share_btn:hover {
   color: #000000;
@@ -3739,7 +3767,7 @@ footer .pay img {
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .stretching_training_info {
     margin-top: 50px;
   }
@@ -3751,7 +3779,7 @@ footer .pay img {
     margin-right: 0;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .stretching_training_info:nth-child(2) .home_info_text {
     width: 100%;
     margin-left: 15px;
@@ -3762,7 +3790,14 @@ footer .pay img {
   height: 100%;
   overflow: hidden;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .stretching_training_info_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 750px) {
   .stretching_training_info_image {
     height: 250px;
   }
@@ -3771,7 +3806,14 @@ footer .pay img {
   min-width: 100%;
   min-height: 100%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .stretching_training_info_image img {
+    min-width: auto;
+    min-height: auto;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
   .stretching_training_info_image img {
     min-width: auto;
     min-height: auto;
@@ -3800,6 +3842,16 @@ footer .pay img {
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+  .stretching_training_info_content_number {
+    font-size: 200px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stretching_training_info_content_number {
+    font-size: 100px;
+  }
+}
 .stretching_training_info_content_illu {
   position: absolute;
   display: block;
@@ -3807,6 +3859,16 @@ footer .pay img {
   height: auto;
   bottom: 20px;
   right: 0;
+}
+@media screen and (max-width: 768px) {
+  .stretching_training_info_content_illu img {
+    max-height: 260px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stretching_training_info_content_illu img {
+    max-height: 200px;
+  }
 }
 .stretching_training_info_text {
   font-family: 'ProximaNova', sans-serif;
@@ -3821,9 +3883,10 @@ footer .pay img {
     width: 45vw;
     margin-right: 15px;
     margin-top: 70px;
+    margin-bottom: 50px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .stretching_training_info_text {
     width: 100%;
     margin: 90px 15px 0 15px;
@@ -3866,7 +3929,7 @@ footer .pay img {
   right: auto;
   left: 28px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .stretching_training_info:nth-child(3n) .stretching_training_info_content:after {
     left: 15px;
   }
@@ -3875,7 +3938,7 @@ footer .pay img {
   right: auto;
   left: 28px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .stretching_training_info:nth-child(3n) .stretching_training_info_content:before {
     right: 15px;
     left: auto;
@@ -4209,6 +4272,17 @@ footer .pay img {
   text-align: center;
   z-index: 10;
 }
+@media screen and (max-width: 768px) {
+  .gym_main_header {
+    font-size: 40px;
+    padding-top: 40%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gym_main_header {
+    font-size: 30px;
+  }
+}
 .gym_main_btn_wrapper {
   position: relative;
   display: flex;
@@ -4216,6 +4290,11 @@ footer .pay img {
   justify-content: center;
   margin-top: 90px;
   z-index: 10;
+}
+@media screen and (max-width: 750px) {
+  .gym_main_btn_wrapper {
+    flex-direction: column;
+  }
 }
 .gym_main_buy_btn {
   display: inline-block;
@@ -4237,6 +4316,12 @@ footer .pay img {
   z-index: 15;
   cursor: pointer;
   margin-right: 40px;
+}
+@media screen and (max-width: 750px) {
+  .gym_main_buy_btn {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 .gym_main_buy_btn:hover {
   background-color: #F9D641;
@@ -4262,6 +4347,13 @@ footer .pay img {
   font-weight: 500;
   cursor: pointer;
 }
+@media screen and (max-width: 750px) {
+  .gym_main_share_btn {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
+}
 .gym_main_share_btn:hover {
   color: #000000;
   background: #F9D641;
@@ -4275,6 +4367,19 @@ footer .pay img {
   min-height: 555px;
   background-color: #000000;
   overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .gym_man_woman {
+    height: 40vh;
+    min-height: 500px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gym_man_woman {
+    height: auto;
+    min-height: auto;
+    padding-bottom: 50px;
+  }
 }
 .gym_man_woman_sub_title {
   position: relative;
@@ -4309,12 +4414,17 @@ footer .pay img {
   text-align: center;
   color: #ffffff;
 }
+@media screen and (max-width: 750px) {
+  .gym_man_woman_image {
+    height: 200px;
+  }
+}
 .gym_man_woman_image img {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 45px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .gym_man_woman_image img {
     background-color: #000000;
     opacity: 0.5;
@@ -4325,6 +4435,7 @@ footer .pay img {
   position: relative;
   width: 100%;
   margin-top: 70px;
+  overflow: hidden;
 }
 .gym_motivation_text {
   display: block;
@@ -4337,9 +4448,10 @@ footer .pay img {
   border: 1px solid #F1D86E;
   box-sizing: border-box;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .gym_motivation_text {
     font-size: 18px;
+    padding: 25px 15px;
   }
 }
 /* GYM_BLOCK_SECTION */
@@ -4359,6 +4471,17 @@ footer .pay img {
   height: 50vh;
   min-height: 595px;
   overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .gym_block_image {
+    min-height: 710px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gym_block_image {
+    height: 250px;
+    min-height: auto;
+  }
 }
 .gym_block_image img {
   height: 100%;
@@ -4384,13 +4507,14 @@ footer .pay img {
   .gym_block_text {
     width: 45vw;
     margin-right: 15px;
-    margin-top: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .gym_block_text {
     width: 100%;
-    margin: 90px 15px 0 15px;
+    margin: 30px 15px;
   }
 }
 .gym_block_text h5 {
@@ -4439,6 +4563,12 @@ footer .pay img {
   height: 525px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 768px) {
+  .gym_trainer_image {
+    height: 405px;
+    overflow: hidden;
+  }
+}
 .gym_trainer_image img {
   height: 100%;
   min-width: 100%;
@@ -4480,8 +4610,19 @@ footer .pay img {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 750px) {
+  .gym_trainer_content {
+    align-items: center;
+    margin-top: 40px;
+  }
+}
 .gym_trainer_text {
   margin-top: 30px;
+}
+@media screen and (max-width: 750px) {
+  .gym_trainer_text {
+    text-align: center;
+  }
 }
 .gym_trainer_text p {
   font-size: 16px;
@@ -4493,6 +4634,7 @@ footer .pay img {
   position: relative;
   width: 100%;
   padding: 70px 0;
+  overflow: hidden;
 }
 .gym_other_header {
   font-size: 20px;
@@ -4541,6 +4683,16 @@ footer .pay img {
   text-align: center;
   z-index: 10;
 }
+@media screen and (max-width: 768px) {
+  .crossfyt_main_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .crossfyt_main_header {
+    font-size: 30px;
+  }
+}
 .crossfyt_main_sub_header {
   position: relative;
   font-size: 20px;
@@ -4556,6 +4708,11 @@ footer .pay img {
   justify-content: center;
   margin-top: 90px;
   z-index: 10;
+}
+@media screen and (max-width: 750px) {
+  .crossfyt_main_btn_wrapper {
+    flex-direction: column;
+  }
 }
 .crossfyt_main_buy_btn {
   display: inline-block;
@@ -4577,6 +4734,12 @@ footer .pay img {
   z-index: 15;
   cursor: pointer;
   margin-right: 40px;
+}
+@media screen and (max-width: 750px) {
+  .crossfyt_main_buy_btn {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 .crossfyt_main_buy_btn:hover {
   background-color: #F9D641;
@@ -4602,6 +4765,13 @@ footer .pay img {
   font-weight: 500;
   cursor: pointer;
 }
+@media screen and (max-width: 750px) {
+  .crossfyt_main_share_btn {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
+}
 .crossfyt_main_share_btn:hover {
   color: #000000;
   background: #F9D641;
@@ -4617,6 +4787,12 @@ footer .pay img {
   -webkit-background-size: cover;
   background-size: cover;
 }
+@media screen and (max-width: 750px) {
+  .crossfyt_advantage {
+    height: auto;
+    min-height: auto;
+  }
+}
 .crossfyt_advantage_header {
   font-size: 60px;
   font-family: 'PFDinDisplayPro', sans-serif;
@@ -4625,6 +4801,16 @@ footer .pay img {
   padding-top: 70px;
   margin-bottom: 70px;
 }
+@media screen and (max-width: 768px) {
+  .crossfyt_advantage_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .crossfyt_advantage_header {
+    font-size: 30px;
+  }
+}
 .crossfyt_advantage_block {
   position: relative;
   width: 100%;
@@ -4632,16 +4818,20 @@ footer .pay img {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 750px) {
+  .crossfyt_advantage_block {
+    margin-bottom: 50px;
+  }
+}
 .crossfyt_advantage_block_image {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 150px;
   height: 150px;
-  background: linear-gradient(180deg, #323232 0%, #383838 100%);
 }
 .crossfyt_advantage_block_image img {
-  max-width: 100px;
+  width: 100%;
 }
 .crossfyt_advantage_block_text {
   margin-top: 35px;
@@ -4652,35 +4842,9 @@ footer .pay img {
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 400;
 }
-/* CROSSFYT_TEXT SECTION */
-.crossfyt_text {
-  position: relative;
-  width: 100%;
-  margin-top: 120px;
-  border-radius: 5px;
-}
-@media screen and (max-width: 576px) {
-  .crossfyt_text {
-    margin-top: 80px;
-  }
-}
-.crossfyt_text .container {
-  border: 5px solid #547ef4;
-}
-.crossfyt_text_block {
-  padding: 90px 0 85px 0;
-  font-size: 36px;
-  line-height: 48px;
-  color: #ffffff;
-  font-family: 'ProximaNova', sans-serif;
-  font-weight: 400;
-  text-align: center;
-}
-@media screen and (max-width: 576px) {
-  .crossfyt_text_block {
-    font-size: 24px;
-    line-height: 30px;
-    padding: 75px 30px 70px 30px;
+@media screen and (max-width: 750px) {
+  .crossfyt_advantage_block_text {
+    margin-top: 20px;
   }
 }
 /* CROSSFYT_ABOUT SECTION */
@@ -4696,16 +4860,22 @@ footer .pay img {
   min-height: 595px;
   overflow: hidden;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .crossfyt_about_image {
+    min-height: 710px;
+  }
+}
+@media screen and (max-width: 750px) {
   .crossfyt_about_image {
     height: 250px;
+    min-height: auto;
   }
 }
 .crossfyt_about_image img {
   min-width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .crossfyt_about_image img {
     min-width: auto;
     min-height: auto;
@@ -4733,13 +4903,14 @@ footer .pay img {
   .crossfyt_about_text {
     width: 45vw;
     margin-right: 15px;
-    margin-top: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .crossfyt_about_text {
     width: 100%;
-    margin: 90px 15px 0 15px;
+    margin: 30px 15px;
   }
 }
 .crossfyt_about_text h5 {
@@ -4786,6 +4957,12 @@ footer .pay img {
   height: 525px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 768px) {
+  .crossfyt_trainer_image {
+    height: 405px;
+    overflow: hidden;
+  }
+}
 .crossfyt_trainer_image img {
   height: 100%;
   min-width: 100%;
@@ -4827,8 +5004,19 @@ footer .pay img {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 750px) {
+  .crossfyt_trainer_content {
+    align-items: center;
+    margin-top: 40px;
+  }
+}
 .crossfyt_trainer_text {
   margin-top: 30px;
+}
+@media screen and (max-width: 750px) {
+  .crossfyt_trainer_text {
+    align-items: center;
+  }
 }
 .crossfyt_trainer_text p {
   font-size: 16px;
@@ -4848,6 +5036,16 @@ footer .pay img {
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 600;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .program_second_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .program_second_header {
+    font-size: 30px;
+  }
 }
 .program_second_sub_header {
   color: #ffffff;
@@ -4872,6 +5070,11 @@ footer .pay img {
   height: 100%;
   background-color: #F1D86E;
 }
+@media screen and (max-width: 768px) {
+  .program_second_price_block_title_wrapper {
+    min-height: 120px;
+  }
+}
 .program_second_price_block_title {
   width: 90%;
   font-size: 40px;
@@ -4879,6 +5082,11 @@ footer .pay img {
   font-weight: 500;
   color: #000000;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .program_second_price_block_title {
+    margin-top: 20px;
+  }
 }
 .program_second_price_block_sub_title {
   width: 90%;
@@ -4889,10 +5097,20 @@ footer .pay img {
   font-family: 'ProximaNova', sans-serif;
   font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+  .program_second_price_block_sub_title {
+    margin-bottom: 20px;
+  }
+}
 .program_second_table {
   position: relative;
   width: 100%;
   padding: 25px 65px 55px 65px;
+}
+@media screen and (max-width: 750px) {
+  .program_second_table {
+    padding: 25px 15px;
+  }
 }
 .program_second_table:after {
   content: '';
@@ -4969,6 +5187,11 @@ footer .pay img {
   cursor: pointer;
   margin-top: 50px;
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .program_second_price_wrapper_btn {
+    margin-bottom: 30px;
+  }
 }
 .program_second_price_wrapper_btn:hover {
   background-color: #F9D641;
