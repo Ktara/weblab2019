@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/css/style.less" line="5180" />
+    <bookmark url="file://$PROJECT_DIR$/assets/css/style.less" line="5186" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b062614e-d1a9-4242-87de-a017f1e91580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crossfyt2.html" beforeDir="false" afterPath="$PROJECT_DIR$/crossfyt2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym.html" beforeDir="false" afterPath="$PROJECT_DIR$/gym.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stretching.html" beforeDir="false" afterPath="$PROJECT_DIR$/stretching.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,8 +237,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="4295" column="38" lean-forward="true" selection-start-line="4295" selection-start-column="4" selection-end-line="4295" selection-end-column="38" />
+                <state relative-caret-position="663">
+                  <caret line="5667" column="19" selection-start-line="5667" selection-start-column="19" selection-end-line="5667" selection-end-column="19" />
                   <folding>
                     <element signature="e#71590#73614#0" />
                     <element signature="e#73678#76763#0" />
@@ -250,9 +246,9 @@
                     <element signature="e#77188#78367#0" />
                     <element signature="e#78422#81992#0" />
                     <element signature="e#82035#83887#0" />
+                    <element signature="e#83940#85293#0" />
                     <element signature="e#85350#85680#0" />
                     <element signature="e#85723#87144#0" />
-                    <element signature="e#87194#88276#0" />
                     <element signature="e#88319#88585#0" />
                     <element signature="e#88635#90635#0" />
                     <element signature="e#90696#91522#0" />
@@ -263,8 +259,7 @@
                     <element signature="e#104887#104947#0" />
                     <element signature="e#104959#107538#0" />
                     <element signature="e#107557#108928#0" />
-                    <element signature="e#108950#110063#0" />
-                    <marker date="1555830787933" expanded="true" signature="21250:21284" ph="..." />
+                    <marker date="1555831276383" expanded="true" signature="21250:21284" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -473,12 +468,12 @@
       <workItem from="1555577450300" duration="10959000" />
       <workItem from="1555654208187" duration="22958000" />
       <workItem from="1555782599067" duration="8856000" />
-      <workItem from="1555827334312" duration="3649000" />
+      <workItem from="1555827334312" duration="3934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129728000" />
+    <option name="totallyTimeSpent" value="130013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -787,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="4295" column="38" lean-forward="true" selection-start-line="4295" selection-start-column="4" selection-end-line="4295" selection-end-column="38" />
+        <state relative-caret-position="663">
+          <caret line="5667" column="19" selection-start-line="5667" selection-start-column="19" selection-end-line="5667" selection-end-column="19" />
           <folding>
             <element signature="e#71590#73614#0" />
             <element signature="e#73678#76763#0" />
@@ -796,9 +791,9 @@
             <element signature="e#77188#78367#0" />
             <element signature="e#78422#81992#0" />
             <element signature="e#82035#83887#0" />
+            <element signature="e#83940#85293#0" />
             <element signature="e#85350#85680#0" />
             <element signature="e#85723#87144#0" />
-            <element signature="e#87194#88276#0" />
             <element signature="e#88319#88585#0" />
             <element signature="e#88635#90635#0" />
             <element signature="e#90696#91522#0" />
@@ -809,8 +804,7 @@
             <element signature="e#104887#104947#0" />
             <element signature="e#104959#107538#0" />
             <element signature="e#107557#108928#0" />
-            <element signature="e#108950#110063#0" />
-            <marker date="1555830787933" expanded="true" signature="21250:21284" ph="..." />
+            <marker date="1555831276383" expanded="true" signature="21250:21284" ph="..." />
           </folding>
         </state>
       </provider>

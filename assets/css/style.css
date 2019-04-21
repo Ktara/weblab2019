@@ -5824,6 +5824,7 @@ footer .pay img {
   width: 100%;
   margin-top: 70px;
   padding-bottom: 70px;
+  overflow: hidden;
 }
 .other_program_header {
   font-size: 60px;
