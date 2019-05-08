@@ -2406,6 +2406,11 @@ footer .pay img {
   height: 65px;
   margin: 25px 30px 0 20px;
 }
+@media screen and (max-width: 750px) {
+  .article_comment_block_image {
+    display: none;
+  }
+}
 .article_comment_block_image img {
   height: 100%;
   min-width: 100%;
@@ -2415,6 +2420,12 @@ footer .pay img {
   padding-right: 30px;
   padding-bottom: 30px;
   width: auto;
+}
+@media screen and (max-width: 750px) {
+  .article_comment_block_text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .article_comment_block_text_name {
   position: relative;
@@ -2450,6 +2461,11 @@ footer .pay img {
   right: 30px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 750px) {
+  .article_comment_block_date {
+    top: 10px;
+  }
 }
 .article_comment_form {
   display: block;
