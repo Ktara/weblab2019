@@ -1431,6 +1431,7 @@ body {
 @media screen and (max-width: 750px) {
   .main_trainer_block_image img {
     min-width: auto;
+    left: 0;
   }
 }
 .main_trainer_block_name {
