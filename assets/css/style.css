@@ -2602,7 +2602,7 @@ footer .pay img {
 /* POPUPS */
 .popup_log_out {
   position: fixed;
-  display: block;
+  display: none;
   width: 100%;
   height: 0;
   top: 0;
@@ -2612,6 +2612,7 @@ footer .pay img {
   opacity: 0;
 }
 .popup_log_out_active {
+  display: block;
   height: 100vh;
 }
 .popup_log_out:before {
@@ -2931,7 +2932,7 @@ footer .pay img {
 }
 .popup_sign_in {
   position: fixed;
-  display: block;
+  display: none;
   width: 100%;
   height: 0;
   top: 0;
@@ -2941,6 +2942,7 @@ footer .pay img {
   opacity: 0;
 }
 .popup_sign_in_active {
+  display: block;
   height: 100vh;
 }
 .popup_sign_in:before {
@@ -3278,7 +3280,7 @@ footer .pay img {
 }
 .popup_share {
   position: fixed;
-  display: block;
+  display: none;
   width: 100%;
   height: 0;
   top: 0;
@@ -3288,6 +3290,7 @@ footer .pay img {
   opacity: 0;
 }
 .popup_share_active {
+  display: block;
   height: 100vh;
 }
 .popup_share:before {
@@ -3436,7 +3439,7 @@ footer .pay img {
 @media screen and (max-width: 768px) {
   .popup_nav_menu {
     position: fixed;
-    display: block;
+    display: none;
     width: 100%;
     height: 0;
     top: 95px;
@@ -3446,6 +3449,7 @@ footer .pay img {
     opacity: 0;
   }
   .popup_nav_menu_active {
+    display: block;
     height: calc(100vh - 95px);
     top: 95px;
     opacity: 1;

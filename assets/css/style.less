@@ -2594,7 +2594,7 @@ footer {
 /* POPUPS */
 .popup_log_out {
   position: fixed;
-  display: block;
+  display: none;
   width: 100%;
   height: 0;
   top: 0;
@@ -2603,6 +2603,7 @@ footer {
   overflow: hidden;
   opacity: 0;
   &_active {
+    display: block;
     height: 100vh;
   }
   &:before {
@@ -2899,7 +2900,7 @@ footer {
 
 .popup_sign_in {
   position: fixed;
-  display: block;
+  display: none;
   width: 100%;
   height: 0;
   top: 0;
@@ -2908,6 +2909,7 @@ footer {
   overflow: hidden;
   opacity: 0;
   &_active {
+    display: block;
     height: 100vh;
   }
   &:before {
@@ -3227,7 +3229,7 @@ footer {
 
 .popup_share {
   position: fixed;
-  display: block;
+  display: none;
   width: 100%;
   height: 0;
   top: 0;
@@ -3236,6 +3238,7 @@ footer {
   overflow: hidden;
   opacity: 0;
   &_active {
+    display: block;
     height: 100vh;
   }
   &:before {
@@ -3379,7 +3382,7 @@ footer {
   display: none;
   @media screen and (max-width: 768px) {
     position: fixed;
-    display: block;
+    display: none;
     width: 100%;
     height: 0;
     top: 95px;
@@ -3388,6 +3391,7 @@ footer {
     z-index: 200;
     opacity: 0;
     &_active {
+      display: block;
       height: calc(100vh - 95px);
       top: 95px;
       opacity: 1;
