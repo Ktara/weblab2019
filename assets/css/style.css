@@ -3748,6 +3748,12 @@ footer .pay img {
     margin-left: 10%;
   }
 }
+@media screen and (max-width: 350px) {
+  .stretching_main_buy_btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .stretching_main_buy_btn:hover {
   background-color: #F9D641;
   border: 1px solid #F9D641;
@@ -3778,6 +3784,12 @@ footer .pay img {
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .stretching_main_share_btn {
+    width: 100%;
+    margin-left: 0;
   }
 }
 .stretching_main_share_btn:hover {
@@ -3854,6 +3866,7 @@ footer .pay img {
 }
 @media screen and (max-width: 750px) {
   .stretching_training_info_image img {
+    display: inline-block;
     min-width: auto;
     min-height: auto;
     height: auto;
@@ -4369,6 +4382,12 @@ footer .pay img {
     margin-left: 10%;
   }
 }
+@media screen and (max-width: 350px) {
+  .gym_main_buy_btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .gym_main_buy_btn:hover {
   background-color: #F9D641;
   border: 1px solid #F9D641;
@@ -4399,6 +4418,12 @@ footer .pay img {
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .gym_main_share_btn {
+    width: 100%;
+    margin-left: 0;
   }
 }
 .gym_main_share_btn:hover {
@@ -4616,9 +4641,22 @@ footer .pay img {
     overflow: hidden;
   }
 }
+@media screen and (max-width: 420px) {
+  .gym_trainer_image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
 .gym_trainer_image img {
   height: 100%;
   min-width: 100%;
+}
+@media screen and (max-width: 420px) {
+  .gym_trainer_image img {
+    display: inline-block;
+    min-width: auto;
+  }
 }
 .gym_trainer_name_block {
   display: flex;
@@ -4789,6 +4827,12 @@ footer .pay img {
     margin-left: 10%;
   }
 }
+@media screen and (max-width: 350px) {
+  .crossfyt_main_buy_btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .crossfyt_main_buy_btn:hover {
   background-color: #F9D641;
   border: 1px solid #F9D641;
@@ -4819,6 +4863,12 @@ footer .pay img {
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .crossfyt_main_share_btn {
+    width: 100%;
+    margin-left: 0;
   }
 }
 .crossfyt_main_share_btn:hover {
@@ -5012,9 +5062,22 @@ footer .pay img {
     overflow: hidden;
   }
 }
+@media screen and (max-width: 420px) {
+  .crossfyt_trainer_image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
 .crossfyt_trainer_image img {
   height: 100%;
   min-width: 100%;
+}
+@media screen and (max-width: 420px) {
+  .crossfyt_trainer_image img {
+    display: inline-block;
+    min-width: auto;
+  }
 }
 .crossfyt_trainer_name_block {
   display: flex;
@@ -5085,6 +5148,7 @@ footer .pay img {
   font-family: 'PFDinDisplayPro', sans-serif;
   font-weight: 600;
   text-align: center;
+  padding-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
   .program_second_header {
@@ -5310,6 +5374,11 @@ footer .pay img {
 @media screen and (max-width: 750px) {
   .program_first_price_block {
     margin-top: 50px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .program_first_price_block form {
+    width: 100%;
   }
 }
 .program_first_price_block_text {
@@ -5606,6 +5675,12 @@ footer .pay img {
     margin-left: 10%;
   }
 }
+@media screen and (max-width: 350px) {
+  .home_block_buy_btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .home_block_buy_btn:hover {
   background-color: #F9D641;
   border: 1px solid #F9D641;
@@ -5636,6 +5711,12 @@ footer .pay img {
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .home_block_share_btn {
+    width: 100%;
+    margin-left: 0;
   }
 }
 .home_block_share_btn:hover {
@@ -5670,6 +5751,14 @@ footer .pay img {
 @media screen and (max-width: 750px) {
   .home_info_image img {
     height: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home_info_image img {
+    height: auto;
+    width: 100%;
+    min-width: auto;
+    min-height: auto;
   }
 }
 .home_info_content {
@@ -5720,6 +5809,11 @@ footer .pay img {
 @media screen and (max-width: 768px) {
   .home_info_content_where {
     font-size: 150px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home_info_content_where {
+    font-size: 100px;
   }
 }
 .home_info_text {
@@ -5815,9 +5909,22 @@ footer .pay img {
     overflow: hidden;
   }
 }
+@media screen and (max-width: 420px) {
+  .home_trainer_image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
 .home_trainer_image img {
   height: 100%;
   min-width: 100%;
+}
+@media screen and (max-width: 420px) {
+  .home_trainer_image img {
+    min-width: auto;
+    display: inline-block;
+  }
 }
 .home_trainer_name_block {
   display: flex;
