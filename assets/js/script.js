@@ -399,6 +399,7 @@ $('.main_video_popup_video').click(function(event){
 	};
 });
 $('.close_main_video').click(function(){
+	$('.main_video_popup_video_active iframe')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
 	$('.main_video_popup_video').removeClass('main_video_popup_video_active').velocity({
 		opacity: 1
 	}, 600);
