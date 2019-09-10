@@ -134,6 +134,7 @@ body {
 }
 .main_wrapper {
   background-color: @black-d;
+  overflow: hidden;
 }
 .main_wrapper .section_header {
   .pfd-bold;
@@ -141,7 +142,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     font-size: 40px;
   }
   @media screen and (max-width: 576px) {
@@ -452,6 +453,9 @@ body {
       background-color: @black;
       background-position: 20% 50%;
     }
+    @media screen and (max-height: 420px) {
+      background-position: 20% 0;
+    }
     &_header {
       position: relative;
       font-size: 60px;
@@ -490,6 +494,9 @@ body {
       -o-transition: all 0.9s;
       transition: all 0.9s;
       z-index: 15;
+      @media screen and (max-height: 420px) {
+        margin-top: 50px;
+      }
       &:hover {
         background-color: @yellow-dark;
         border: 1px solid @yellow-dark;
@@ -588,14 +595,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 /* ABOUT */
 .about {
   position: relative;
@@ -680,14 +679,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 /* PROGRAM */
 .program {
   position: relative;
@@ -708,14 +699,11 @@ body {
     min-height: 340px;
     margin-top: 30px;
     overflow: hidden;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       height: 30vh;
       min-height: 240px;
       display: flex;
       justify-content: center;
-    }
-    @media screen and (max-width: 576px) {
-      height: 40vh;
     }
     &:after {
       content: '';
@@ -743,7 +731,15 @@ body {
       right: 0;
       min-width: 100%;
       height: 100%;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
+        height: auto;
+        width: 100%;
+        right: auto;
+        bottom: auto;
+        top: 0;
+        left: 0;
+      }
+      @media screen and (max-width: 420px) {
         position: inherit;
         min-width: auto;
       }
@@ -755,6 +751,12 @@ body {
       height: auto;
       bottom: 30px;
       left: 35px;
+      @media screen and (max-width: 740px) {
+        bottom: 0;
+      }
+      @media screen and (max-width: 820px) {
+        left: 15px;
+      }
       .top_text {
         font-size: 16px;
         color: @white;
@@ -774,6 +776,12 @@ body {
       bottom: 30px;
       right: 35px;
       text-align: right;
+      @media screen and (max-width: 740px) {
+        bottom: 0;
+      }
+      @media screen and (max-width: 820px) {
+        right: 15px;
+      }
       .bottom_text {
         font-size: 16px;
         color: @white;
@@ -799,11 +807,6 @@ body {
 }
 
 
-
-
-
-
-
 /*MAIN VIDEO*/
 .main_video {
   position: relative;
@@ -814,7 +817,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     height: 40vh;
     min-height: 445px;
   }
@@ -848,11 +851,18 @@ body {
         bottom: auto;
         top: -30%;
       }
-      @media screen and (max-width: 750px) {
+      @media screen and (max-width: 780px) {
+        bottom: 0;
+        top: auto;
+      }
+      @media screen and (max-width: 420px) {
+        bottom: -20%;
+      }
+      @media screen and (max-width: 380px) {
         width: auto;
         height: 100%;
         top: 0;
-        left: -5%;
+        left: 0;
       }
     }
   }
@@ -966,7 +976,7 @@ body {
     height: 30%;
     bottom: 70px;
     left: ~'calc(50% - 100px)';
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       height: 25%;
     }
     @media screen and (max-width: 750px) {
@@ -1051,14 +1061,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 /* HIT_FOTO */
 .hit_foto {
   position: relative;
@@ -1074,6 +1076,9 @@ body {
   &_title {
     font-size: 60px;
     text-align: center;
+    @media screen and (max-width: 850px) {
+      font-size: 40px;
+    }
   }
   &_slider_wrapper {
     position: relative;
@@ -1162,7 +1167,7 @@ body {
         -o-transition: all 0.9s;
         transition: all 0.9s;
         .proxi-sbold;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 850px) {
           width: 300px;
           font-size: 14px;
         }
@@ -1284,16 +1289,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*MAIN AD*/
 .main_ad {
   position: relative;
@@ -1354,18 +1349,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*MAIN TRAINER*/
 .main_trainer {
   position: relative;
@@ -1374,7 +1357,7 @@ body {
   min-height: 840px;
   background-repeat: no-repeat;
   background-size: cover;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     height: 50vh;
     min-height: 660px;
   }
@@ -1411,7 +1394,7 @@ body {
       width: auto;
       height: 450px;
       overflow: hidden;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         height: 265px;
       }
       @media screen and (max-width: 750px) {
@@ -1426,6 +1409,9 @@ body {
         left: -10%;
         min-width: 100%;
         height: 100%;
+        @media screen and (max-width: 850px) {
+          left: -45%;
+        }
         @media screen and (max-width: 750px) {
           min-width: auto;
           left: 0;
@@ -1466,19 +1452,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* BLOG */
 .blog {
   position: relative;
@@ -1511,7 +1484,7 @@ body {
       align-items: center;
       width: auto;
       height: 255px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         height: 190px;
       }
       img {
@@ -1559,17 +1532,6 @@ body {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* FOOTER */
@@ -1648,7 +1610,7 @@ footer {
       display: flex;
       justify-content: space-between;
       padding-top: 75px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         -webkit-flex-direction: column;
         -moz-flex-direction: column;
         -ms-flex-direction: column;
@@ -1660,7 +1622,7 @@ footer {
         align-items: center;
       }
       li {
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           margin-bottom: 30px;
         }
       }
@@ -1704,10 +1666,6 @@ footer {
     }
   }
 }
-
-
-
-
 
 
 
@@ -1758,7 +1716,7 @@ footer {
       width: 16%;
       left: 8%;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       display: none;
     }
     &_up {
@@ -1790,7 +1748,7 @@ footer {
     font-size: 20px;
     display: inline-block;
     position: relative;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       padding-top: 35px;
       cursor: pointer;
       font-size: 24px;
@@ -1801,7 +1759,7 @@ footer {
       width: 85%;
     }
     &:after {
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         content: url(../img/new/arrow-down.png);
         display: inline-block;
         position: absolute;
@@ -1816,7 +1774,7 @@ footer {
     }
   }
   &_wrapper {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       height: 0;
       overflow: hidden;
     }
@@ -1842,8 +1800,6 @@ footer {
 
 
 
-
-
 /* BLOG  PAGE*/
 .popular {
   position: relative;
@@ -1856,7 +1812,7 @@ footer {
     height: 40vh;
     min-height: 405px;
     overflow: hidden;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       height: 25vh;
       min-height: 330px;
     }
@@ -1871,7 +1827,7 @@ footer {
     width: 100%;
     min-height: 405px;
     height: 40vh;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       height: 25vh;
       min-height: 330px;
     }
@@ -1900,8 +1856,8 @@ footer {
         //left: 0;
         min-width: 100%;
         min-height: 100%;
-        @media screen and (max-width: 768px) {
-          max-height: 120%;
+        @media screen and (max-width: 780px) {
+          width: 100%;
         }
       }
     }
@@ -1913,7 +1869,7 @@ footer {
       top: 145px;
       left: 0;
       text-align: center;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         top: 35%;
       }
     }
@@ -1924,7 +1880,7 @@ footer {
       font-size: 50px;
       .pfd-bold;
       color: @white;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         font-size: 40px;
         margin-top: 0;
         width: 70%;
@@ -2031,11 +1987,6 @@ footer {
     }
   }
 }
-
-
-
-
-
 
 
 .blog_page {
@@ -2153,7 +2104,7 @@ footer {
     height: 25vh;
     min-height: 255px;
     overflow: hidden;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       height: 15vh;
       min-height: 190px;
     }
@@ -2192,14 +2143,10 @@ footer {
 
 
 
-
-
-
-
 /* ARTICLE PAGE */
 .main_wrapper .article .container .other_article_tablet {
   display: none;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       display: block;
     }
   }
@@ -2217,7 +2164,7 @@ footer {
       width: 100%;
       height: 100%;
       top: 0;
-      left: 0;
+      right: 0;
       &:after {
         content: '';
         position: absolute;
@@ -2232,6 +2179,13 @@ footer {
       img {
         height: 100%;
         min-width: 100%;
+        @media screen and (max-width: 780px) {
+          position: absolute;
+          right: 0;
+        }
+        @media screen and (max-width: 450px) {
+          right: -30%;
+        }
       }
     }
     &_wrapper {
@@ -2240,7 +2194,7 @@ footer {
       height: 50vh;
       min-height: 555px;
       z-index: 20;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         height: 30vh;
         min-height: 335px;
       }
@@ -2248,7 +2202,7 @@ footer {
         display: block;
         padding-top: 55px;
         text-decoration: none;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           padding-top: 35px;
         }
         &_img {
@@ -2276,7 +2230,7 @@ footer {
         top: 210px;
         left: 0;
         text-align: center;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           top: 120px;
         }
       }
@@ -2284,7 +2238,7 @@ footer {
         font-size: 50px;
         color: @white;
         .pfd-bold;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           font-size: 40px;
         }
       }
@@ -2522,9 +2476,6 @@ footer {
 }
 
 
-
-
-
 .article_other {
   position: relative;
   width: 100%;
@@ -2582,9 +2533,6 @@ footer {
     }
   }
 }
-
-
-
 
 
 
@@ -3219,14 +3167,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
 .popup_share {
   position: fixed;
   display: none;
@@ -3373,14 +3313,9 @@ footer {
 
 
 
-
-
-
-
-
 .popup_nav_menu {
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     position: fixed;
     display: none;
     width: 100%;
@@ -3443,12 +3378,6 @@ footer {
   }
 
 }
-
-
-
-
-
-
 
 
 
@@ -3594,15 +3523,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
 /*STRETCHING PAGE*/
 .stretching_main {
   position: relative;
@@ -3612,7 +3532,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 70%;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     background-position: center;
   }
   &:after {
@@ -3635,7 +3555,7 @@ footer {
     padding-top: 30vh;
     text-align: center;
     z-index: 10;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       font-size: 40px;
     }
     @media screen and (max-width: 750px) {
@@ -3655,7 +3575,10 @@ footer {
     justify-content: center;
     margin-top: 90px;
     z-index: 10;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      margin-top: 5%;
+    }
+    @media screen and (max-width: 420px) {
       flex-direction: column;
     }
   }
@@ -3678,7 +3601,11 @@ footer {
     z-index: 15;
     cursor: pointer;
     margin-right: 40px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       width: 80%;
       margin-left: 10%;
     }
@@ -3709,7 +3636,11 @@ footer {
     background: none;
     .proxi-sbold;
     cursor: pointer;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       font-size: 14px;
       width: 80%;
       margin-left: 10%;
@@ -3726,12 +3657,6 @@ footer {
     }
   }
 }
-
-
-
-
-
-
 
 
 /* STRETCHING_TRAINING SECTION */
@@ -3757,7 +3682,7 @@ footer {
       margin-top: 50px;
     }
     &:nth-child(2) .home_info_text {
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         width: 43vw;
         margin-left: 45px;
         margin-right: 0;
@@ -3771,13 +3696,16 @@ footer {
       width: 100%;
       height: 100%;
       overflow: hidden;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         display: flex;
         justify-content: center;
         align-items: center;
       }
       @media screen and (max-width: 750px) {
         height: 250px;
+      }
+      @media screen and (max-height: 420px) {
+        height: auto;
       }
       @media screen and (max-width: 420px) {
         height: auto;
@@ -3786,7 +3714,7 @@ footer {
         width: 100%;
         //min-width: 100%;
         //min-height: 100%;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           min-width: auto;
           min-height: auto;
           height: 100%;
@@ -3819,10 +3747,10 @@ footer {
         text-transform: uppercase;
         font-size: 300px;
         .pfd-bold;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           font-size: 200px;
         }
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 420px) {
           font-size: 100px;
         }
       }
@@ -3834,10 +3762,13 @@ footer {
         bottom: 20px;
         right: 0;
         img {
-          @media screen and (max-width: 768px) {
+          @media screen and (max-width: 780px) {
             max-height: 260px;
           }
           @media screen and (max-width: 750px) {
+            max-height: 200px;
+          }
+          @media screen and (max-height: 420px) {
             max-height: 200px;
           }
         }
@@ -3849,11 +3780,15 @@ footer {
       line-height: 24px;
       width: 33vw;
       position: relative;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         width: 45vw;
         margin-right: 15px;
         margin-top: 70px;
         margin-bottom: 50px;
+      }
+      @media screen and (max-height: 420px) {
+        margin-top: 15px;
+        margin-bottom: 15px;
       }
       @media screen and (max-width: 750px) {
         width: 100%;
@@ -3867,7 +3802,7 @@ footer {
         font-size: 20px;
         color: @white;
         margin-bottom: 50px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 780px) {
           margin-bottom: 30px;
         }
         &:after {
@@ -3911,9 +3846,6 @@ footer {
 }
 
 
-
-
-
 /* STRETCHING_WHAT SECTION */
 .stretching_what {
   position: relative;
@@ -3937,9 +3869,6 @@ footer {
 }
 
 
-
-
-
 /* STRETCHING_TRAINER SECTION */
 .stretching_trainer {
   position: relative;
@@ -3947,7 +3876,7 @@ footer {
   background-color: @back-white;
   margin-top: 120px;
   padding-bottom: 80px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     margin-top: 50px;
   }
   @media screen and (max-width: 576px) {
@@ -3968,7 +3897,7 @@ footer {
       font-size: 18px;
       line-height: 24px;
       .proxi-reg;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         font-size: 16px;
       }
     }
@@ -3978,7 +3907,7 @@ footer {
       height: 215px;
       bottom: 100px;
       right: 20%;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         width: 245px;
         bottom: -120px;
       }
@@ -4002,10 +3931,6 @@ footer {
     }
   }
 }
-
-
-
-
 
 
 /* STRETCHING PRICE SECTION*/
@@ -4049,7 +3974,7 @@ footer {
     //justify-content: center;
     align-content: center;
     position: relative;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       padding-left: 0;
       text-align: left;
     }
@@ -4129,7 +4054,7 @@ footer {
       position: absolute;
       left: 7px;
       top: 25%;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         left: -15%;
       }
       @media screen and (max-width: 576px) { 
@@ -4143,7 +4068,7 @@ footer {
     color: black;
     margin-bottom: 30px;
     text-transform: uppercase;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       font-size: 30px;
     }
   }
@@ -4163,7 +4088,7 @@ footer {
     -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       padding: 0 35px;
       font-size: 18px;
       text-transform: uppercase;
@@ -4178,22 +4103,11 @@ footer {
     }
   }
   .fix {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       padding: 0;
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -4232,11 +4146,12 @@ footer {
     padding-top: 30vh;
     text-align: center;
     z-index: 10;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       font-size: 40px;
-      padding-top: 40%;
+      padding-top: 25%;
     }
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 420px) {
+      padding-top: 40%;
       font-size: 30px;
       line-height: 40px;
     }
@@ -4248,7 +4163,10 @@ footer {
     justify-content: center;
     margin-top: 90px;
     z-index: 10;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 780px) {
+      margin-top: 5%;
+    }
+    @media screen and (max-width: 420px) {
       flex-direction: column;
     }
   }
@@ -4271,7 +4189,11 @@ footer {
     z-index: 15;
     cursor: pointer;
     margin-right: 40px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 780px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       width: 80%;
       margin-left: 10%;
     }
@@ -4302,7 +4224,11 @@ footer {
     background: none;
     .proxi-sbold;
     cursor: pointer;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 780px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       font-size: 14px;
       width: 80%;
       margin-left: 10%;
@@ -4321,13 +4247,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
 /* GYM_MAN_WOMAN SECTION */
 .gym_man_woman {
   position: relative;
@@ -4336,7 +4255,7 @@ footer {
   min-height: 555px;
   background-color: @black;
   overflow: hidden;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     height: 40vh;
     min-height: 500px;
   }
@@ -4354,7 +4273,7 @@ footer {
     color: @white;
     margin-top: 130px;
     text-align: center;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       margin-top: 30px;
     }
     &:after {
@@ -4392,15 +4311,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* GYM_MOTIVASION SECTION */
 .gym_motivation {
   position: relative;
@@ -4425,10 +4335,6 @@ footer {
 
 
 
-
-
-
-
 /* GYM_BLOCK_SECTION */
 .gym_block {
   position: relative;
@@ -4445,7 +4351,7 @@ footer {
     height: 50vh;
     min-height: 595px;
     overflow: hidden;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       min-height: 710px;
     }
     @media screen and (max-width: 750px) {
@@ -4471,7 +4377,7 @@ footer {
     line-height: 24px;
     width: 33vw;
     position: relative;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       width: 45vw;
       margin-right: 15px;
       margin-top: 20px;
@@ -4489,7 +4395,7 @@ footer {
       font-size: 20px;
       color: @white;
       margin-bottom: 50px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         margin-bottom: 30px;
       }
       &:after {
@@ -4513,14 +4419,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
 /* GYM_TRAINER SECTION */
 .gym_trainer {
   position: relative;
@@ -4532,12 +4430,10 @@ footer {
   &_image {
     width: 100%;
     height: 525px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    @media screen and (max-width: 768px) {
+    //box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    @media screen and (max-width: 780px) {
       height: 405px;
       overflow: hidden;
-    }
-    @media screen and (max-width: 420px) {
       text-align: center;
       display: flex;
       justify-content: center;
@@ -4545,7 +4441,7 @@ footer {
     img {
       height: 100%;
       min-width: 100%;
-      @media screen and (max-width: 420px) {
+      @media screen and (max-width: 780px) {
         display: inline-block;
         min-width: auto;
       }
@@ -4604,11 +4500,6 @@ footer {
 }
 
 
-
-
-
-
-
 /* GYM OTHER SECTION */
 .gym_other {
   position: relative;
@@ -4629,14 +4520,6 @@ footer {
     margin-top: 40px;
   }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -4672,7 +4555,7 @@ footer {
     padding-top: 30vh;
     text-align: center;
     z-index: 10;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       font-size: 40px;
     }
     @media screen and (max-width: 750px) {
@@ -4695,7 +4578,10 @@ footer {
     justify-content: center;
     margin-top: 90px;
     z-index: 10;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      margin-top: 5%;
+    }
+    @media screen and (max-width: 420px) {
       flex-direction: column;
     }
   }
@@ -4718,7 +4604,11 @@ footer {
     z-index: 15;
     cursor: pointer;
     margin-right: 40px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       width: 80%;
       margin-left: 10%;
     }
@@ -4749,7 +4639,11 @@ footer {
     background: none;
     .proxi-sbold;
     cursor: pointer;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       font-size: 14px;
       width: 80%;
       margin-left: 10%;
@@ -4766,11 +4660,6 @@ footer {
     }
   }
 }
-
-
-
-
-
 
 
 /* CROSSFYT_ADVANTAGE SECTION */
@@ -4792,7 +4681,7 @@ footer {
     text-align: center;
     padding-top: 70px;
     margin-bottom: 70px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       font-size: 40px;
     }
     @media screen and (max-width: 750px) {
@@ -4834,16 +4723,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* CROSSFYT_ABOUT SECTION */
 .crossfyt_about {
   position: relative;
@@ -4855,12 +4734,13 @@ footer {
     height: 50vh;
     min-height: 595px;
     overflow: hidden;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       min-height: 710px;
     }
     @media screen and (max-width: 750px) {
-      height: 250px;
+      height: auto;
       min-height: auto;
+      width: 100%;
     }
     img {
       min-width: 100%;
@@ -4887,7 +4767,7 @@ footer {
     line-height: 24px;
     width: 33vw;
     position: relative;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       width: 45vw;
       margin-right: 15px;
       margin-top: 20px;
@@ -4905,7 +4785,7 @@ footer {
       font-size: 20px;
       color: @white;
       margin-bottom: 50px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         margin-bottom: 30px;
       }
       &:after {
@@ -4928,10 +4808,6 @@ footer {
 }
 
 
-
-
-
-
 /* CROSSFYT_TRAINER SECTION */
 .crossfyt_trainer {
   position: relative;
@@ -4943,12 +4819,10 @@ footer {
   &_image {
     width: 100%;
     height: 525px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    @media screen and (max-width: 768px) {
+    //box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    @media screen and (max-width: 780px) {
       height: 405px;
       overflow: hidden;
-    }
-    @media screen and (max-width: 420px) {
       text-align: center;
       display: flex;
       justify-content: center;
@@ -4956,7 +4830,7 @@ footer {
     img {
       height: 100%;
       min-width: 100%;
-      @media screen and (max-width: 420px) {
+      @media screen and (max-width: 780px) {
         display: inline-block;
         min-width: auto;
       }
@@ -5019,7 +4893,6 @@ footer {
 
 
 
-
 /* PROGRAM_SECOND SECTION */
 .program_second {
   position: relative;
@@ -5032,7 +4905,7 @@ footer {
     .pfd-bold;
     text-align: center;
     padding-bottom: 30px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       font-size: 40px;
     }
     @media screen and (max-width: 750px) {
@@ -5060,7 +4933,7 @@ footer {
       width: 100%;
       height: 100%;
       background-color: @yellow;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         min-height: 120px;
       }
     }
@@ -5070,7 +4943,7 @@ footer {
       .proxi-sbold;
       color: @black;
       text-align: center;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         margin-top: 20px;
       }
     }
@@ -5081,7 +4954,7 @@ footer {
       margin-top: 20px;
       text-align: center;
       .proxi-sbold;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 850px) {
         margin-bottom: 20px;
       }
     }
@@ -5090,7 +4963,7 @@ footer {
     position: relative;
     width: 100%;
     padding: 25px 65px 55px 65px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
       padding: 25px 15px;
     }
     &:after {
@@ -5108,6 +4981,9 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      @media screen and (max-width: 850px) {
+        margin-top: 10px;
+      }
       &_title {
         font-size: 20px;
         color: @white;
@@ -5143,6 +5019,9 @@ footer {
       font-size: 50px;
       .pfd-bold;
       color: #FF0000;
+      @media screen and (max-width: 850px) {
+        font-size: 40px;
+      }
     }
     &_btn {
       display: block;
@@ -5164,8 +5043,9 @@ footer {
       cursor: pointer;
       margin-top: 50px;
       text-decoration: none;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 850px) {
         margin-bottom: 30px;
+        margin-top: 30px;
       }
       &:hover {
         background-color: @yellow-dark;
@@ -5174,10 +5054,6 @@ footer {
     }
   }
 }
-
-
-
-
 
 
 .program_first {
@@ -5278,7 +5154,7 @@ footer {
       cursor: pointer;
       margin-top: 50px;
       text-decoration: none;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         width: 100%;
       }
       &:hover {
@@ -5355,7 +5231,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    @media screen and (max-width: 768px) { 
+    @media screen and (max-width: 780px) {
       justify-content: flex-start;
       margin-top: 35px;
     }
@@ -5374,7 +5250,7 @@ footer {
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
     background-color: @back-white;
     text-decoration: none;
-    @media screen and (max-width: 768px) { 
+    @media screen and (max-width: 780px) {
       margin-right: 25px;
     }
     @media screen and (max-width: 576px) { 
@@ -5412,7 +5288,7 @@ footer {
     -webkit-transition: all 0.9s;
     -o-transition: all 0.9s;
     transition: all 0.9s;
-    @media screen and (max-width: 768px) { 
+    @media screen and (max-width: 780px) {
       width: 65%; 
     }
     @media screen and (max-width: 576px) { 
@@ -5433,8 +5309,6 @@ footer {
 
 
 
-
-
 /*HOME PAGE*/
 
 .home_block {
@@ -5447,12 +5321,18 @@ footer {
   -webkit-background-size: 100%;
   background-size: 100%;
   overflow: hidden;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     background-position: 100% 0;
     -webkit-background-size: inherit;
     background-size: inherit;
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-height: 420px) {
+    background-position: 100%;
+  }
+  @media screen and (max-height: 375px) {
+    background-position: 100%;
+  }
+  @media screen and (max-width: 420px) {
     background-position: 95% 80%;
   }
   &_header {
@@ -5462,7 +5342,7 @@ footer {
     color: @white;
     padding-top: 30vh;
     text-align: center;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       font-size: 40px;
     }
     @media screen and (max-width: 750px) {
@@ -5480,7 +5360,10 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin-top: 90px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      margin-top: 5%;
+    }
+    @media screen and (max-width: 420px) {
       flex-direction: column;
     }
   }
@@ -5503,7 +5386,11 @@ footer {
     z-index: 15;
     cursor: pointer;
     margin-right: 40px;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       width: 80%;
       margin-left: 10%;
     }
@@ -5534,7 +5421,11 @@ footer {
     background: none;
     .proxi-sbold;
     cursor: pointer;
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
+      width: 45%;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 420px) {
       font-size: 14px;
       width: 80%;
       margin-left: 10%;
@@ -5553,9 +5444,6 @@ footer {
 }
 
 
-
-
-
 .home_info_wrapper {
   position: relative;
   width: 100%;
@@ -5572,6 +5460,9 @@ footer {
     @media screen and (max-width: 750px) {
       height: 300px;
     }
+    @media screen and (max-height: 420px) {
+      height: auto;
+    }
     @media screen and (max-width: 420px) {
       height: auto;
     }
@@ -5583,6 +5474,12 @@ footer {
         //min-height: auto;
         //width: 100%;
         height: 100%;
+      }
+      @media screen and (max-height: 420px) {
+        height: auto;
+        width: 100%;
+        min-width: auto;
+        min-height: auto;
       }
       @media screen and (max-width: 420px) {
         height: auto;
@@ -5611,7 +5508,7 @@ footer {
       text-transform: uppercase;
       font-size: 200px;
       .pfd-bold;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         font-size: 150px;
       }
       @media screen and (max-width: 750px) {
@@ -5629,7 +5526,7 @@ footer {
       text-transform: uppercase;
       font-size: 200px;
       .pfd-bold;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         font-size: 150px;
       }
       @media screen and (max-width: 750px) {
@@ -5643,10 +5540,13 @@ footer {
     line-height: 24px;
     width: 33vw;
     position: relative;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       width: 45vw;
       margin-right: 15px;
       margin-top: 70px;
+    }
+    @media screen and (max-height: 420px) {
+      margin-top: 0;
     }
     @media screen and (max-width: 750px) {
       width: 100%;
@@ -5660,7 +5560,7 @@ footer {
       font-size: 20px;
       color: @white;
       margin-bottom: 50px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 780px) {
         margin-bottom: 30px;
       }
       &:after {
@@ -5703,8 +5603,6 @@ footer {
 }
 
 
-
-
 .home_trainer {
   position: relative;
   display: flex;
@@ -5716,12 +5614,9 @@ footer {
   &_image {
     width: 100%;
     height: 525px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 780px) {
       height: 405px;
       overflow: hidden;
-    }
-    @media screen and (max-width: 420px) {
       text-align: center;
       display: flex;
       justify-content: center;
@@ -5729,7 +5624,7 @@ footer {
     img {
       height: 100%;
       min-width: 100%;
-      @media screen and (max-width: 420px) {
+      @media screen and (max-width: 780px) {
         min-width: auto;
         display: inline-block;
       }

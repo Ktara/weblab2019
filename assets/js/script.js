@@ -163,7 +163,7 @@ $('.other_program_slider_wrapper').slick({
 	prevArrow: '<div class="other_program_prev_arrow"></div>',
 	responsive: [
 		{
-			breakpoint: 750,
+			breakpoint: 740,
 			settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1
