@@ -3854,6 +3854,11 @@ footer .pay img {
     height: 250px;
   }
 }
+@media screen and (max-width: 420px) {
+  .stretching_training_info_image {
+    height: auto;
+  }
+}
 .stretching_training_info_image img {
   width: 100%;
 }
@@ -5742,6 +5747,11 @@ footer .pay img {
 @media screen and (max-width: 750px) {
   .home_info_image {
     height: 300px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home_info_image {
+    height: auto;
   }
 }
 .home_info_image img {
