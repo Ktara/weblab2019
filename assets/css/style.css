@@ -878,11 +878,6 @@ body {
     top: auto;
   }
 }
-@media screen and (max-width: 420px) {
-  .main_video_viewer img {
-    bottom: -20%;
-  }
-}
 @media screen and (max-width: 380px) {
   .main_video_viewer img {
     width: auto;
@@ -3533,12 +3528,12 @@ footer .pay img {
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: 30vh;
+    margin-top: 25vh;
   }
   .popup_nav_menu ul li {
     margin-bottom: 5vh;
   }
-  .popup_nav_menu ul li a {
+  .popup_nav_menu ul li .nav_main_link {
     font-size: 30px;
     color: #ffffff;
     text-transform: uppercase;
