@@ -3492,7 +3492,8 @@ footer .pay img {
 }
 @media screen and (max-width: 750px) {
   .popup_share_form_btn {
-    font-size: 14px;
+    display: flex;
+    align-items: center;
     height: 60px;
     line-height: normal;
   }
